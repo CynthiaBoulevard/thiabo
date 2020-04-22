@@ -22,3 +22,34 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('admin/routes', 'HomeController@admin')->middleware('admin');
+
+
+// route User
+Route::get('/user', function () {
+    return view('user');
+});
+
+
+
+
+
+// FRONT-END
+
+
+// route Accueil
+Route::get('/', function () {
+    return view('welcome');
+});
+
+
+// route Galerie
+Route::get('/galerie', function () {
+    return view('galerie');
+});
+
+
+// route Atelier
+Route::get('/atelier', function () {
+    return view('atelier');
+});
+

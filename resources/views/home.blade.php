@@ -16,6 +16,7 @@
                     <div class="panel-heading">Vous êtes connecté cher 
                     
                     <a href="{{url('user')}}">Utilsateur</a> <br>
+                    
                          </div>
                     @endif
 
