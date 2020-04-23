@@ -1,36 +1,63 @@
 
 
 
-html, body {
-    background-color: #fff;
-    color: #636b6f;
+html 
+{
+    background-color: black;
+    padding-right:-50px ;
+    color: #000000;
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
-    height: 100vh;
-    margin: 0;
+    height: 100vh; 
 }
 
-.full-height {
+
+body
+{
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: -30px;
+    margin-top: -5px;
+    color: rgb(0, 0, 0);
+
+}
+
+
+.imgprin
+{
+    height: full-high;
+}
+
+
+
+
+.full-height 
+{
     height: 100vh;
 }
 
-.flex-center {
+.flex-center 
+{
     align-items: center;
     display: flex;
     justify-content: center;
 }
 
-.position-ref {
+.position-ref 
+{
     position: relative;
 }
 
-.top-right {
+.top-right 
+{
     position: absolute;
     right: 10px;
     top: 18px;
 }
 
-.content {
+.content 
+{
     text-align: center;
 }
 
@@ -38,9 +65,7 @@ html, body {
 {
     font-size: 84px;
     margin-top:100px;
-    margin-left:auto;
-    margin-bottom:auto;
-    margin-right:auto;
+
 }
 
 
@@ -49,11 +74,23 @@ html, body {
     background-color: black;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 500px;
+    margin-top: -10px;
 }
 
-.links > a {
-    color: #636b6f;
+
+
+#co
+{
+    color: black;
+}
+
+
+
+
+
+.links > a 
+{
+    color: #ffffff;
     padding: 0 25px;
     font-size: 13px;
     font-weight: 600;
@@ -62,6 +99,333 @@ html, body {
     text-transform: uppercase;
 }
 
-.m-b-md {
+.m-b-md 
+{
     margin-bottom: 30px;
 } 
+
+
+
+
+
+
+
+
+
+/* GALERIE PHOTO **************************************/
+
+
+
+/* titre et sous-titre */
+
+.titreprin2
+{
+    font-family: 'Petit Formal Script', cursive; 
+    /* color:rgb(190, 117, 32); */
+    color:rgb(0, 0, 0);
+    font-size: 35px;
+    margin-top: 200px;
+
+}
+
+.soustitre2
+{
+    color:rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 70px;
+
+}
+
+
+
+
+
+/* images */
+
+.port1
+{
+    margin-bottom: 20px;
+    margin-left: 100px;
+    position: relative;
+    width: 21%;
+    font-family: 'Raleway', sans-serif;
+
+ 
+}
+
+
+/* effet HOVER image */
+.img-fluid
+{
+    display: block;
+    height: auto;
+}
+
+
+.overlay 
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(197, 138, 103);
+}
+  
+.port1:hover  .overlay 
+{
+        opacity: 1;
+}  
+
+.text 
+{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+
+
+
+  
+.port2
+{
+    margin-top: -293px;
+    margin-bottom: 20px;
+    margin-left: 475px;
+    position: relative;
+    width: 21%;
+    font-family: 'Raleway', sans-serif;
+
+}
+  
+.port2:hover  .overlay 
+{
+        opacity: 1;
+}  
+
+
+
+.port3
+{
+    margin-top: -293px;
+    margin-bottom: 20px;
+    margin-left: 850px;
+    margin-right: 100px;
+    position: relative;
+    width: 21%;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.port3:hover  .overlay 
+{
+    opacity: 1;
+}  
+
+
+.port4
+{
+    margin-top: 150px;
+    margin-left: 100px;
+    position: relative;
+    width: 21%;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+.port4:hover  .overlay 
+{
+    opacity: 1;
+}  
+
+.port5
+{
+    margin-top: -271px;
+    margin-left: 475px;
+    position: relative;
+    width: 21%;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.port5:hover  .overlay 
+{
+    opacity: 1;
+}  
+
+
+.port6
+{
+    margin-top: -271px;
+    margin-left: 850px;
+    margin-right: 100px;
+    position: relative;
+    width: 21%;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.port6:hover  .overlay 
+{
+    opacity: 1;
+}  
+
+
+
+
+
+
+.textréal
+{
+    font-family: 'Raleway', sans-serif;
+    margin-top:70px ;
+}
+
+
+
+.button 
+{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 80px;
+}
+    
+ 
+.évé
+{
+    background-color: black;
+    padding-bottom: 200px;
+    padding-top: 200px;
+}
+
+
+
+
+/******************************************* LES ATELIERS ******************************************/
+
+
+/* images */
+
+.port7
+{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    position: relative;
+    width: 21%;
+    font-family: 'Raleway', sans-serif;
+
+ 
+}
+
+/* effet HOVER image */
+.img-fluid
+{
+    display: block;
+    height: auto;
+}
+
+
+.overlay 
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(197, 138, 103);
+  }
+  
+.port7:hover  .overlay 
+{
+        opacity: 1;
+}  
+
+.text 
+{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+
+
+
+  
+.port8
+{
+    margin-top: -399px;
+    margin-bottom: 20px;
+    margin-left: 430px;
+    position: relative;
+    width: 21%;
+    font-family: 'Raleway', sans-serif;
+
+}
+  
+.port8:hover  .overlay 
+{
+        opacity: 1;
+}  
+
+
+
+.port9
+{
+    margin-top: -399px;
+    margin-bottom: 80px;
+    margin-left: 830px;
+    position: relative;
+
+    width: 21%;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+.port9:hover  .overlay 
+{
+    opacity: 1;
+}  
+
+
+
+/*********************************************** FOOTER **********************************************/
+
+
+
+.évé1
+{
+    background-color: rgb(34, 29, 29);
+    padding-bottom: 300px;
+    padding-top: 200px;
+}
+
+

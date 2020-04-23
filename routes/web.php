@@ -28,10 +28,9 @@ Route::resource('/carrousel','Admin\CarrouselController');
 
 
 // route User
-Route::get('/user', function () {
+Route::get('user',['middleware' => 'auth', function () {
     return view('user');
-});
-
+}]);
 
 
 // FRONT-END
