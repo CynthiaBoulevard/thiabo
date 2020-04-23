@@ -22,14 +22,15 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('admin/routes', 'HomeController@admin')->middleware('admin');
+Route::resource('/carrousel','Admin\CarrouselController');
+
+
 
 
 // route User
 Route::get('/user', function () {
     return view('user');
 });
-
-
 
 
 
