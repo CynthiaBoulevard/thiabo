@@ -329,7 +329,7 @@ body
 .port7
 {
     margin-top: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     margin-left: 30px;
     position: relative;
     width: 21%;
@@ -339,7 +339,7 @@ body
 }
 
 /* effet HOVER image */
-.img-fluid
+/* .img-fluid
 {
     display: block;
     height: auto;
@@ -373,37 +373,34 @@ body
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-}
+} */
 
 
-
-
-
-  
 .port8
 {
-    margin-top: -399px;
-    margin-bottom: 20px;
-    margin-left: 430px;
+    margin-top: -272px;
+    margin-bottom: 0px;
+    margin-left: 320px;
     position: relative;
     width: 21%;
     font-family: 'Raleway', sans-serif;
 
 }
   
-.port8:hover  .overlay 
+/* .port8:hover  .overlay 
 {
         opacity: 1;
-}  
+}   */
 
 
 
 .port9
 {
-    margin-top: -399px;
-    margin-bottom: 80px;
-    margin-left: 830px;
+    margin-top: -270px;
+    margin-bottom: 0px;
+    margin-left: 608px;
     position: relative;
+    border-radius: 20%;
 
     width: 21%;
     font-family: 'Raleway', sans-serif;
@@ -411,10 +408,33 @@ body
 
 }
 
-.port9:hover  .overlay 
+/* .port9:hover  .overlay 
 {
     opacity: 1;
-}  
+}   */
+
+
+
+/* FORMULAIRE D'INSCRIPTION ATELIER */
+
+
+.formcont
+{
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+
+
+.contact-form
+{
+    margin-left: 160px;
+}
+
+
+
+
+
 
 
 

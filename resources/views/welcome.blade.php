@@ -51,9 +51,9 @@
                 
                     <a href="#quisuis-je">Qui suis-je ? </a>
                     <a href="#mesréal">Réalisations</a>
-                    <a href="#quisuis-je">les évènements</a>
-                    <a href="#quisuis-je">Ateliers</a>
-                    <a href="#quisuis-je">Contact</a>
+                    <a href="#évène">les évènements</a>
+                    <a href="#atelier">Ateliers</a>
+                    <a href="#formcont">Contact</a>
 
                 </div>
                 </div>
@@ -230,7 +230,7 @@
 
     <blockquote class="content">
     
-    <h2 class="titreprin2" id="mesréal" >Les évènements</h2> 
+    <h2 class="titreprin2" id="évène" >Les évènements</h2> 
 
     <p class="textréal2"> Nous organisons des évènements tout au long de l'année. Des vernissages, <br>
         des expositions, des workshops. Nous faisons égalements des rassemblements d'artistes, <br>
@@ -239,9 +239,9 @@
 
     </blockquote>
 
-    <div class="évé">
+    <!-- <div class="évé">
 
-    </div>
+    </div> -->
 
 
 
@@ -250,7 +250,7 @@
 
     <blockquote class="content">
     
-    <h2 class="titreprin2" id="mesréal" >Ateliers</h2> 
+    <h2 class="titreprin2" id="atelier" >Ateliers</h2> 
 
     <p class="textréal2"> Nous organisons des évènements tout au long de l'année. Des vernissages, <br>
         des expositions, des workshops. Nous faisons égalements des rassemblements d'artistes, <br>
@@ -313,11 +313,75 @@
             </div>
         </div>
 
-        <a 
-            href="qui-suis-je.html" class="button">En savoir plus
-        </a>
+
     </div>
 </div>
+
+
+
+
+
+
+<h2 class="formcont" id="formcont"> Inscrivez-vous ! </h2>
+
+
+
+<section class="contact-form" >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+                <div class="row">
+                <form class="contact-form" method="post" action="{{ route('reservation.send') }}">
+                        @csrf
+
+                        <div class="col-md-6 col-sm-6">
+                              
+                            <div class="form-group">
+                                <input  name="name" type="text" class="form-control" id="name" required="required" placeholder="  Nom*">
+                            </div>
+
+                            <div class="form-group">
+                                <input  name="firstname" type="text" class="form-control" id="firstname" required="required" placeholder="  Prenom*">
+                            </div>
+
+                            <div class="form-group">
+                                <input name="email" type="email" class="form-control" id="email" required="required" placeholder="  E-mail*">
+                            </div>
+
+                            <div class="form-group">
+                                <input name="phone" type="phone" class="form-control" id="phone" required="required" placeholder=" Téléphone*">
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6 col-sm-6">
+                            <textarea name="message" type="text" class="form-control" id="message" rows="24" required="required" placeholder="  Message*"></textarea>
+                        </div>
+
+                        <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+                            <div class="text-center">
+                                <button type="submit" id="submit" name="submit" class="btn btn-send">Envoyer </button>
+                            </div>
+                        </div>
+
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -334,10 +398,12 @@
     <div class="évé1">
 
 
-    <h2 class="formcont"> Formulaire de contact </h2>
 
 
-<section class="contact-form">
+    <h2 class="formcont" id="formcont"> Formulaire de contact </h2>
+
+
+<section class="contact-form" id="forme">
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">

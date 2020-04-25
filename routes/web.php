@@ -22,6 +22,10 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('admin', 'HomeController@admin')->middleware('admin');
 
+
+// formulaire de reservtaion page accueil
+Route::post('/reservation','ReservationController@sendMessage')->name('reservation.send');
+
 // formulaire de contact page accueil
 Route::post('/contact','ContactController@sendMessage')->name('contact.send');
 

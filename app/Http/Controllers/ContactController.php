@@ -30,6 +30,5 @@ class ContactController extends Controller
         ["positionClass" => "toast-top-right"]);
         return back();
 
-    }
-
+    }  
 }
