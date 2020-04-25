@@ -4,13 +4,16 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>ThiaBo</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <!-- Styles -->
         <link rel="stylesheet" href="css/style.css" />
+
+        @toastr_css
+        <script src="jquery.min.js"></script>
 
     </head>
 
@@ -40,7 +43,7 @@
 <!-- section slider et menu -->
             <div class="content">
   
-                <img src="{{ asset('frontend/images/IMG2.jpg') }}" alt="pain" class="imgprin" height="600px" width="1209px" > 
+                <img src="{{ asset('frontend/images/IMG2.jpg') }}" alt="pain" class="imgprin" height="498px" width="1009px" > 
 
 
                 <div id="menu">
@@ -126,7 +129,7 @@
         <div class="col-sm-4">
             <div class="port1"> 
                 <!-- <img src="images/feuille1.JPG" class="img-fluid" alt="Sample photo"  > -->
-                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="252" height="252"> 
+                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
 
                 <div class="overlay">
                     <h4 class="text">Illustration main <br>
@@ -139,7 +142,7 @@
             <div class="port2"> 
 
                 <!-- <img src="images/age/agecol5.jpg" class="img-fluid" alt="Sample photo" width="250" height="250"> -->
-                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="252" height="252"> 
+                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
 
                 <div class="overlay">
                     <div class="text">Sites Amazodrones <br>
@@ -151,7 +154,7 @@
         <div class="col-sm-4">
             <div class="port3"> 
                 <!-- <img src="images/profil.JPG" class="img-fluid" alt="Sample photo" width="250" height="250" > -->
-                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="252" height="252"> 
+                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
 
                 <div class="overlay">
                     <div class="text">Illustration numérique </div>
@@ -165,7 +168,7 @@
         <div class="col-sm-4">
             <div class="port4"> 
                 <!-- <img src="images/age/age6col.jpg" class="img-fluid" alt="Sample photo" width="250" height="250"> -->
-                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="252" height="252"> 
+                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
 
                 <div class="overlay">
                     <div class="text">Site Bees Work Café <br>
@@ -177,7 +180,7 @@
         <div class="col-sm-4">
             <div class="port5"> 
                 <!-- <img src="images/paradis2c.jpg" class="img-fluid" alt="Sample photo" width="250" height="250"> -->
-                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="252" height="252"> 
+                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
 
                 <div class="overlay">
                     <div class="text">Illustration aquarelle </div>
@@ -189,7 +192,7 @@
         <div class="col-sm-4">
             <div class="port6"> 
                 <!-- <img src="images/age/agecol1.jpg" class="img-fluid" alt="Sample photo" width="250" height="250"> -->
-                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="252" height="252"> 
+                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
 
                 <div class="overlay">
                     <div class="text">Site A.G.E <br> 
@@ -241,6 +244,10 @@
     </div>
 
 
+
+<!--****************************************** LES ATELIERS ******************************************-->
+
+
     <blockquote class="content">
     
     <h2 class="titreprin2" id="mesréal" >Ateliers</h2> 
@@ -254,9 +261,6 @@
 
 
 
-<!--****************************************** LES ATELIERS ******************************************-->
-
-
 <!-- PHOTOS -->
 <div class="content">
     <div class="row text-center">
@@ -264,39 +268,54 @@
 
         <div class="col-sm-4">
             <div class="port7"> 
-                <!-- <img src="images/feuille1.JPG" class="img-fluid" alt="Sample photo"  > -->
-                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="350" height="350"> 
+                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="250" height="250"> 
 
                 <div class="overlay">
                     <h4 class="text">Illustration main <br>
                         crayons couleurs / Gouache</h4>
                 </div>
+
+
             </div> 
         </div>
+
+
+
 
         <div class="col-sm-4">
             <div class="port8"> 
 
-                <!-- <img src="images/age/agecol5.jpg" class="img-fluid" alt="Sample photo" width="250" height="250"> -->
-                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="350" height="350"> 
+                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="250" height="250"> 
 
                 <div class="overlay">
-                    <div class="text">Sites Amazodrones <br>
-                                        Wordpress</div>
-                                    </div>
+                    <h4 class="text">Sites Amazodrones <br> 
+                    Wordpress</h4>                     
+                </div>
+
+              
+
             </div>
         </div>
+
+
+
 
         <div class="col-sm-4">
             <div class="port9"> 
-                <!-- <img src="images/profil.JPG" class="img-fluid" alt="Sample photo" width="250" height="250" > -->
-                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="350" height="350"> 
+
+                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="250" height="250"> 
 
                 <div class="overlay">
-                    <div class="text">Illustration numérique </div>
+                    <h4 class="text">Illustration numérique </h4>
                 </div>
+
+
             </div>
         </div>
+
+        <a 
+            href="qui-suis-je.html" class="button">En savoir plus
+        </a>
     </div>
 </div>
 
@@ -314,11 +333,80 @@
 
     <div class="évé1">
 
+
+    <h2 class="formcont"> Formulaire de contact </h2>
+
+
+<section class="contact-form">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+                <div class="row">
+                <form class="contact-form" method="post" action="{{ route('contact.send') }}">
+                        @csrf
+                        <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                              
+                            <div class="form-group">
+                                <input  name="name" type="text" class="form-control" id="name" required="required" placeholder="  Nom*">
+                            </div>
+
+                            <div class="form-group">
+                                <input  name="firstname" type="text" class="form-control" id="firstname" required="required" placeholder="  Prenom*">
+                            </div>
+
+                            <div class="form-group">
+                                <input name="email" type="email" class="form-control" id="email" required="required" placeholder="  E-mail*">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6">
+                            <textarea name="message" type="text" class="form-control" id="message" rows="24" required="required" placeholder="  Message*"></textarea>
+                        </div>
+
+                        <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+                            <div class="text-center">
+                                <button type="submit" id="submit" name="submit" class="btn btn-send">Envoyer </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
     </div>
 
 <p class="content">
     directed by Cynthia BOULEVARD
 </p>
+
+
+
+@if ($errors->any())
+    @foreach ($errors->all() as $error)
+
+    <script>
+        toastr.error('{{ $error }}');
+    </script>
+
+    @endforeach
+@endif
+
+
+
+<script src="jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+
+@jquery
+@toastr_js
+@toastr_render
 
     </body>
 </html>

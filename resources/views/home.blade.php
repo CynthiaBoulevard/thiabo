@@ -10,7 +10,7 @@
                 <div class="card-body">
                 @if(auth()->user()->is_admin == 1)
                     Vous êtes connecté comme 
-                     <a href="{{url('admin/routes')}}">Admin </a>
+                     <a href="{{url('admin')}}">Admin </a>
                     @else 
 
                     <div class="panel-heading">Vous êtes connecté cher 

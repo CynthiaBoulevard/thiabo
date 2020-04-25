@@ -20,17 +20,28 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('admin', 'HomeController@admin')->middleware('admin');
 
-Route::get('admin/routes', 'HomeController@admin')->middleware('admin');
+// formulaire de contact page accueil
+Route::post('/contact','ContactController@sendMessage')->name('contact.send');
+
+
+// formulaire de contact page admin
+Route::get('contacte','Admin\ContacteController@index')->name('contacte.index');
+
+
+// Carrousel
 Route::resource('/carrousel','Admin\CarrouselController');
-
-
 
 
 // route User
 Route::get('user',['middleware' => 'auth', function () {
-    return view('user');
+    return view('user/user');
 }]);
+
+
+// route atelier
+Route::resource('products','ProductController');
 
 
 // FRONT-END
