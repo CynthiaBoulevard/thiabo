@@ -76,6 +76,8 @@ body
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: -10px;
+    z-index:1000;
+
 }
 
 
@@ -145,8 +147,7 @@ body
 
 .port1
 {
-    margin-bottom: 20px;
-    margin-left: 100px;
+    margin-left: 80px;
     position: relative;
     width: 21%;
     font-family: 'Raleway', sans-serif;
@@ -199,9 +200,8 @@ body
   
 .port2
 {
-    margin-top: -293px;
-    margin-bottom: 20px;
-    margin-left: 475px;
+    margin-top: -216px;
+    margin-left: 345px;
     position: relative;
     width: 21%;
     font-family: 'Raleway', sans-serif;
@@ -217,10 +217,8 @@ body
 
 .port3
 {
-    margin-top: -293px;
-    margin-bottom: 20px;
-    margin-left: 850px;
-    margin-right: 100px;
+    margin-top: -216px;
+    margin-left: 610px;
     position: relative;
     width: 21%;
     font-family: 'Raleway', sans-serif;
@@ -235,8 +233,8 @@ body
 
 .port4
 {
-    margin-top: 150px;
-    margin-left: 100px;
+    margin-top: 50px;
+    margin-left: 80px;
     position: relative;
     width: 21%;
     font-family: 'Raleway', sans-serif;
@@ -251,8 +249,8 @@ body
 
 .port5
 {
-    margin-top: -271px;
-    margin-left: 475px;
+    margin-top: -215px;
+    margin-left: 345px;
     position: relative;
     width: 21%;
     font-family: 'Raleway', sans-serif;
@@ -267,8 +265,8 @@ body
 
 .port6
 {
-    margin-top: -271px;
-    margin-left: 850px;
+    margin-top: -216px;
+    margin-left: 610px;
     margin-right: 100px;
     position: relative;
     width: 21%;
@@ -317,6 +315,9 @@ body
     padding-bottom: 200px;
     padding-top: 200px;
 }
+
+
+
 
 
 
@@ -418,10 +419,23 @@ body
 /* FORMULAIRE D'INSCRIPTION ATELIER */
 
 
+#formcont1
+{
+    margin-top: 60px;
+    margin-left: 350px;
+}
+
+
+
+
+
+
+
+
 .formcont
 {
-    margin-top: 100px;
-    margin-left: 350px;
+    margin-top: -30px;
+    margin-left: 300px;
 }
 
 
@@ -429,6 +443,7 @@ body
 .contact-form
 {
     margin-left: 160px;
+    margin-bottom: 100px;
 }
 
 
@@ -445,8 +460,8 @@ body
 .évé1
 {
     background-color: rgb(34, 29, 29);
-    padding-bottom: 300px;
-    padding-top: 200px;
+    padding-bottom: 100px;
+    padding-top: 50px;
 }
 
 

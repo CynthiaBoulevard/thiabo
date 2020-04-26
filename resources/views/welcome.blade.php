@@ -19,7 +19,7 @@
 
 
 
-<!-- Section connexion -->
+<!----------------------------------------- Section connexion ---------------------------------------->
     <body>
 
 
@@ -40,7 +40,10 @@
             @endif
 
 
-<!-- section slider et menu -->
+
+
+
+<!---------------------------------- QUI SUIS-JE--------------------------------------------->
             <div class="content">
   
                 <img src="{{ asset('frontend/images/IMG2.jpg') }}" alt="pain" class="imgprin" height="498px" width="1009px" > 
@@ -51,7 +54,6 @@
                 
                     <a href="#quisuis-je">Qui suis-je ? </a>
                     <a href="#mesréal">Réalisations</a>
-                    <a href="#évène">les évènements</a>
                     <a href="#atelier">Ateliers</a>
                     <a href="#formcont">Contact</a>
 
@@ -108,7 +110,7 @@
 
 
 
-<!-- GALERIE D'IMAGE -->
+<!-------------------------------------------- MES RÉALISATIONS ------------------------------------->
 
    <!-- titre & sous-titre -->
     <blockquote class="content">
@@ -214,34 +216,12 @@
                  
                         
                         
-    <!-- <img src="images/forme7.png" class="img1-fluid" id="form7" alt="Sample photo" width="700" height="400"> -->
-
-
-<div class="row text-center" >
-
-    <div class="col-sm-12"><a href="qui-suis-je.html" class="button">En savoir plus</a>
-
-</div> 
+  
 
 </blockquote>
 
 
 
-
-    <blockquote class="content">
-    
-    <h2 class="titreprin2" id="évène" >Les évènements</h2> 
-
-    <p class="textréal2"> Nous organisons des évènements tout au long de l'année. Des vernissages, <br>
-        des expositions, des workshops. Nous faisons égalements des rassemblements d'artistes, <br>
-        l'oaccasion pour vous de pouvoir échanger eux le temps d'une soirée.
-    </p>
-
-    </blockquote>
-
-    <!-- <div class="évé">
-
-    </div> -->
 
 
 
@@ -252,9 +232,11 @@
     
     <h2 class="titreprin2" id="atelier" >Ateliers</h2> 
 
-    <p class="textréal2"> Nous organisons des évènements tout au long de l'année. Des vernissages, <br>
-        des expositions, des workshops. Nous faisons égalements des rassemblements d'artistes, <br>
-        l'oaccasion pour vous de pouvoir échanger eux le temps d'une soirée.
+    <p class="textréal2"> Nous organisons tout au long de l'année des ateliers. Il y a 3 types <br>
+        d'ateliers auxquelles vous pouvez vous inscrires chaques mois:  <br>
+        atelier aquarelle, atelier acrylique, atelier portrait. <br>
+        Des ateliers disponibles à partir de 16 ans et plus. <br>
+        
     </p>
 
     </blockquote>
@@ -318,11 +300,11 @@
 </div>
 
 
+<!---------------------------------- FORMULAIRE D'INSCRIPTION ATELIER --------------------------------->
 
 
 
-
-<h2 class="formcont" id="formcont"> Inscrivez-vous ! </h2>
+<h2 class="formcont" id="formcont1"> Inscrivez-vous ! </h2>
 
 
 
@@ -387,20 +369,13 @@
 
 
 
-<blockquote class="content">
-    
-    <h2 class="titreprin2" id="mesréal" >Les informations</h2> 
-
-  
-
-    </blockquote>
 
     <div class="évé1">
 
 
 
 
-    <h2 class="formcont" id="formcont"> Formulaire de contact </h2>
+    <h2 class="formcont" id="formcont"> Besoin d'un renseignement?  </h2>
 
 
 <section class="contact-form" id="forme">
