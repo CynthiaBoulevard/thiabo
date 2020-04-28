@@ -1,4 +1,4 @@
-@extends('products.layout')
+@extends('layout.app')
 
   
 
@@ -10,13 +10,13 @@
 
         <div class="pull-left">
 
-            <h2>Add New Product</h2>
+            <h2>Créer nouveau atelier</h2>
 
         </div>
 
         <div class="pull-right">
 
-            <a class="btn btn-primary" href="{{ route('products.index') }}"> Back</a>
+            <a class="btn btn-primary" href="{{ route('reservation.index') }}"> Back</a>
 
         </div>
 
@@ -48,7 +48,7 @@
 
    
 
-<form action="{{ route('products.store') }}" method="POST">
+<form action="{{ route('reservation.store') }}" method="POST">
 
     @csrf
 
@@ -60,7 +60,7 @@
 
             <div class="form-group">
 
-                <strong>Title:</strong>
+                <strong>Titre:</strong>
 
                 <input type="text" name="title" class="form-control" placeholder="Title">
 
@@ -85,7 +85,7 @@
 
             <div class="form-group">
 
-                <strong>Price:</strong>
+                <strong>Prix:</strong>
 
                 <input type="text" name="price" class="form-control" placeholder="Price">
 

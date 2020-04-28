@@ -1,4 +1,4 @@
-@extends('products.layout')
+@extends('layout.app')
 
    
 
@@ -10,13 +10,13 @@
 
             <div class="pull-left">
 
-                <h2>Edit Product</h2>
+                <h2>Modifier atelier</h2>
 
             </div>
 
             <div class="pull-right">
 
-                <a class="btn btn-primary" href="{{ route('products.index') }}"> Back</a>
+                <a class="btn btn-primary" href="{{ route('reservation.index') }}"> Retour</a>
 
             </div>
 
@@ -48,7 +48,7 @@
 
   
 
-    <form action="{{ route('products.update',$product->id) }}" method="POST">
+    <form action="{{ route('reservations.update',$reservation->id) }}" method="POST">
 
         @csrf
 
@@ -64,7 +64,7 @@
 
                     <strong>Title:</strong>
 
-                    <input type="text" name="title" value="{{ $product->title }}" class="form-control" placeholder="Title">
+                    <input type="text" name="title" value="{{ $reservation->title }}" class="form-control" placeholder="Title">
 
                 </div>
 
@@ -76,7 +76,7 @@
 
                     <strong>Date:</strong>
 
-                    <textarea class="form-control" style="height:150px" name="date" placeholder="Date">{{ $product->date }}</textarea>
+                    <textarea class="form-control" style="height:150px" name="date" placeholder="Date">{{ $reservation->date }}</textarea>
 
                 </div>
 
@@ -86,9 +86,9 @@
 
                 <div class="form-group">
 
-                    <strong>Price:</strong>
+                    <strong>Prix:</strong>
 
-                    <input type="text" name="price" value="{{ $product->price }}" class="form-control" placeholder="Price">
+                    <input type="text" name="price" value="{{ $reservation->price }}" class="form-control" placeholder="Price">
 
                 </div>
 
@@ -100,7 +100,7 @@
 
                     <strong>Détail:</strong>
 
-                    <input type="text" name="détail" value="{{ $product->détail }}" class="form-control" placeholder="Détail">
+                    <input type="text" name="détail" value="{{ $reservation->détail }}" class="form-control" placeholder="Détail">
 
                 </div>
 

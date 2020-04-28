@@ -31,13 +31,11 @@
     <li class="nav-item">
 
 
-    <a class="nav-link" href="{{ route('products.index') }}"
-
-    >ATELIERS</a>
+    <a class="nav-link" href="">ATELIERS</a>
     </li>
 
     <li class="nav-item">
-    <a class="nav-link" href="#">INSCRIPTIONS ATELIERS</a>
+    <a class="nav-link" href="">INSCRIPTIONS ATELIERS</a>
     </li>
 
     <li class="nav-item">
