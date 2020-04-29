@@ -1,4 +1,4 @@
-@extends('reservation.layout')
+@extends('contact.layout')
 
  
 
@@ -11,7 +11,7 @@
 
             <div class="pull-left">
 
-                <h2>Ateliers</h2>
+                <h2>Messages</h2>
 
             </div>
 
@@ -56,8 +56,6 @@
 
             <th>E-mail</th>
 
-            <th>Téléhone</th>
-
             <th>Message</th>
 
 
@@ -66,34 +64,30 @@
 
         </tr>
 
-        @foreach ($reservations as $reservation)
+        @foreach ($contacts as $contact)
 
         <tr>
 
            
 
-            <td>{{ $reservation->name }}</td>
+            <td>{{ $contact->name }}</td>
 
-            <td>{{ $reservation->firstname }}</td>
+            <td>{{ $contact->firstname }}</td>
 
-            <td>{{ $reservation->email }}</td>
+            <td>{{ $contact->email }}</td>
 
-            <td>{{ $reservation->phone }}</td>
-
-            <td>{{ $reservation->message }}</td>
+            <td>{{ $contact->message }}</td>
 
 
             <td>
 
-                <form action="{{ route('reservation.destroy',$reservation->id) }}" method="POST">
+                <form action="{{ route('contact.destroy',$contact->id) }}" method="POST">
 
    
 
-                    <a class="btn btn-info" href="{{ route('reservation.show',$reservation->id) }}">Voir</a>
+                    <a class="btn btn-info" href="{{ route('contact.show',$contact->id) }}">Voir</a>
 
     
-
-
    
 
                     @csrf
@@ -119,7 +113,7 @@
 
 
 
-<!-- function pour signifier une erreur avec toastr -->
+
     @if ($errors->any())
     @foreach ($errors->all() as $error)
 
@@ -131,7 +125,7 @@
     @endif
 
 
-<!-- lien pour la petite fenêtre Success Toastr -->
+
 <script src="jquery.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
@@ -143,8 +137,6 @@
 @toastr_render
 
 
-<!-- lien pour pagination -->
-{!! $reservations->links() !!}
-
+{!! $contacts->links() !!}
 
 @endsection

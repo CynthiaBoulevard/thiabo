@@ -20,8 +20,7 @@
 </div>
 
 
-    <div class="email">{{ Auth::user()->name }}</div>
-
+    
     <div class="card-body">
 
     <ul class="nav nav-pills flex-column">
@@ -34,16 +33,18 @@
     <a class="nav-link" href="">ATELIERS</a>
     </li>
 
-    <li class="nav-item">
-    <a class="nav-link" href="">INSCRIPTIONS ATELIERS</a>
-    </li>
+
 
     <li class="nav-item">
+    <a class="nav-link" href="{{ route('reservation.index') }}">INSCRIPTIONS ATELIERS</a>
+    </li>
+
+    <!-- <li class="nav-item">
     <a class="nav-link" href="#">UTILISATEURS</a>
-    </li>
+    </li> -->
 
     <li class="nav-item">
-    <a class="nav-link" href="#">MESSAGES</a>
+    <a class="nav-link" href="{{ route('contact.index') }}">MESSAGES</a>
     </li>
 
 
@@ -51,26 +52,15 @@
 
     </div>
 
-
-
-
-
-
-
     </div>
-
-
-
-
-
-    </div>
-
+</div>
 
 
 
 
 
 
+ 
 
 
 
@@ -79,7 +69,8 @@
 
     <div class="card-header">
 
-    <h5>Bienvenue cher administrateur</h5>
+    <h5>Bienvenue <div class="email">{{ Auth::user()->name }}</div>
+</h5>
 
     </div>
 

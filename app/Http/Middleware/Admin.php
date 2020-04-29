@@ -22,3 +22,8 @@ class Admin
     return redirect('home')->with('error','you have no admin access');
     }
 }
+
+// return redirect ('/login');
+
+
+

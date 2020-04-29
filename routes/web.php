@@ -30,13 +30,24 @@ Route::post('/reservation','ReservationController@sendMessage')->name('reservati
 // Route::get('/reservation','ReservationController@create');
 
 
-Route::resource('admin/reservation','ReservationController');
+Route::resource('admin/reservation','ReservationController', ['middleware' => 'admin']);
+
+Route::get('reservation',['middleware' => 'auth', function () {
+    return view('admin/admin');
+}]);
 
 
 
 
 // formulaire de contact page accueil
 Route::post('/contact','ContactController@sendMessage')->name('contact.send');
+
+Route::resource('admin/contact','ContactController', ['middleware' => 'admin'] );
+
+Route::get('contact',['middleware' => 'auth', function () {
+    return view('admin/admin');
+}]);
+
 
 
 // route User
