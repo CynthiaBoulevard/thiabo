@@ -46,24 +46,22 @@
 <!---------------------------------- QUI SUIS-JE--------------------------------------------->
             <div class="content">
   
-                <img src="{{ asset('frontend/images/IMG2.jpg') }}" alt="pain" class="imgprin" height="498px" width="1009px" > 
+                <!-- <img src="{{ asset('frontend/images/IMG2.jpg') }}" alt="pain" class="imgprin" height="498px" width="1009px" >  -->
 
-
-                <div id="menu">
-                <div class="links">
-                
-                    <a href="#quisuis-je">Qui suis-je ? </a>
-                    <a href="#mesréal">Réalisations</a>
-                    <a href="#atelier">Ateliers</a>
-                    <a href="#formcont">Contact</a>
-
-                </div>
-                </div>
 
             </div>
+
+            </div>
+            </div>
+ 
         </div>
 
-
+        <ul>
+            <li><a class="lien" href="#quisuis-je">Qui suis-je ? </a></li>
+            <li><a class="lien" href="#mesréal">Réalisations</a></li>
+            <li><a class="lien" href="#atelier">Ateliers</a></li>
+            <li><a class="lien" href="#formcont">Contact</a></li>
+        </ul>
 
 
         <div class="col-sm-12">
@@ -366,7 +364,7 @@
                             
 
                             <div class="text-center">
-                                <button type="submit" id="submit" name="submit" class="btn btn-send">Envoyer </button>
+                                <button type="submit" id="submit" name="submit" class="btnsend">Envoyer </button>
                             </div>
 
 
@@ -451,7 +449,7 @@
 
 
             <div class="text-center">
-            <button type="submit" id="submit1" name="submit" class="btn btn-send">Envoyer </button>
+            <button type="submit" id="submit1" name="submit" class="btnsend">Envoyer </button>
             </div>
 
 
