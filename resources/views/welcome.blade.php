@@ -151,8 +151,12 @@
                     <img src="{{ asset('frontend/images/1.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
             
                     <div class="overlay">
-                        <div class="text">Illustration main <br>
-                            crayons couleurs / Gouache</div>
+
+                        <div class="text">Illustration Gouache <br>
+                                        Vendu
+                            
+                        </div>
+
                     </div>
 
 
@@ -167,8 +171,8 @@
                     <img src="{{ asset('frontend/images/2.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
 
                     <div class="overlay">
-                        <div class="text">Sites Amazodrones <br>
-                                            Wordpress</div>
+                        <div class="text">Illustration Acrylique<br>
+                                            Vendu</div>
                     </div>
 
 
@@ -182,7 +186,9 @@
                     <img src="{{ asset('frontend/images/3.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
 
                     <div class="overlay">
-                        <div class="text">Illustration numérique </div>
+                        <div class="text">Illustration Acrylique <br>
+                                            À vendre 
+                         </div>
                     </div>
 
 
@@ -203,8 +209,8 @@
                     <img src="{{ asset('frontend/images/4.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
 
                     <div class="overlay">
-                        <div class="text">Site Bees Work Café <br>
-                                        Laravel</div>
+                        <div class="text">Illustration Gouache 
+                                        </div>
                     </div>
 
 
@@ -233,8 +239,8 @@
                     <img src="{{ asset('frontend/images/7.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
 
                     <div class="overlay">
-                        <div class="text">Site A.G.E <br> 
-                                            Wordpress</div>
+                        <div class="text">Portrait stylo à <br> 
+                                           pointe fine</div>
                     </div>
 
 

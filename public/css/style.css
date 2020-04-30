@@ -232,7 +232,7 @@ color: #111;
   
 .port2
 {
-    margin-top: -216px;
+    margin-top: -196px;
     margin-left: 345px;
     position: relative;
     width: 22.5%;
@@ -249,7 +249,7 @@ color: #111;
 
 .port3
 {
-    margin-top: -216px;
+    margin-top: -185px;
     margin-left: 610px;
     position: relative;
     width: 22.5%;
@@ -265,7 +265,7 @@ color: #111;
 
 .port4
 {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 80px;
     position: relative;
     width: 22.5%;
@@ -297,7 +297,7 @@ color: #111;
 
 .port6
 {
-    margin-top: -216px;
+    margin-top: -190px;
     margin-left: 610px;
     margin-right: 100px;
     position: relative;
@@ -358,44 +358,9 @@ color: #111;
 
 
 
-/* effet HOVER image */
-/* .img-fluid
-{
-    display: block;
-    height: auto;
-}
-
-
-.overlay 
-{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: rgb(197, 138, 103);
-  }
-  
-
-
-.text 
-{
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-} */
-
-
 .port8
 {
-    margin-top: -461px;
+    margin-top: -439px;
     margin-bottom: 0px;
     margin-left: 320px;
     position: relative;
@@ -413,7 +378,7 @@ color: #111;
 
 .port9
 {
-    margin-top: -484px;
+    margin-top: -462px;
     margin-bottom: 0px;
     margin-left: 608px;
     position: relative;
@@ -425,6 +390,8 @@ color: #111;
 {
     opacity: 1;
 }  
+
+
 
 
 /* texte de chaque atelier */
