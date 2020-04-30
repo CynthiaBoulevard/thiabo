@@ -60,9 +60,9 @@
 
         <ul>
             <li><a class="lien" href="#quisuis-je"> Qui suis-je ? </a></li>
-            <li><a class="lien" href="#mesréal"> Réalisations </a></li>
-            <li><a class="lien" href="#atelier"> Ateliers </a></li>
-            <li><a class="lien" href="#formcont"> Contact </a></li>
+            <li><a class="lien" href="#réal"> Réalisations </a></li>
+            <li><a class="lien" href="#ate"> Ateliers </a></li>
+            <li><a class="lien" href="#évé1"> Contact </a></li>
         </ul>
 
 
@@ -74,8 +74,8 @@
         <div class="col-sm-12">
 
             <blockquote class="content" id="quisuis-je">
-
-        
+        <br>
+        <br>
         <br>
 <!-- texte -->
                 <h1 class="">Qui suis-je ?</h1>
@@ -123,13 +123,13 @@
 
 <!-- titre & sous-titre -->
 
-    <blockquote class="content">
+    <blockquote class="content" id="réal">
 
     <br>
-    <br>
 
 
-    <h1 class="titre2"> Mes réalisations </h1>
+
+    <h1 class="titre2" id="titre2"> Mes réalisations </h1>
     <h6 class="soustitre2">AQUARELLES, ACRYLIQUES...</h6>
 
     </blockquote>
@@ -278,7 +278,11 @@
 <!--****************************************** LES ATELIERS ******************************************-->
 
 
-    <blockquote class="content">
+    <blockquote class="content" id="ate">
+
+    <br>
+    <br>
+
     <h1 class="titre3"> Nos ateliers </h1>
 
 
@@ -480,7 +484,9 @@
 
 
 
-<div class="évé1">
+<div class="évé1" id="évé1">
+
+
 
     <h2 class="formcont" id="formcont"> Besoin d'un renseignement ? </h2>
 
