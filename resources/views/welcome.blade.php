@@ -300,6 +300,12 @@
 </div>
 
 
+
+
+
+
+
+
 <!---------------------------------- FORMULAIRE D'INSCRIPTION ATELIER --------------------------------->
 
 
@@ -309,48 +315,73 @@
 
 
 <section class="contact-form" >
+
     <div class="container">
         <div class="row">
-            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
-                <div class="row">
+            
                 <form class="contact-form" method="post" action="{{ route('reservation.send') }}">
                         @csrf
 
+
                         <div class="col-md-6 col-sm-6">
                               
-                            <div class="form-group">
-                                <input  name="name" type="text" class="form-control" id="name" required="required" placeholder="  Nom*">
+
+                            <label>Nom</label>
+                            <div class="name">
+                                <input  name="name" type="text" class="form-control" id="name" required="required" placeholder=" nom*">
                             </div>
 
-                            <div class="form-group">
-                                <input  name="firstname" type="text" class="form-control" id="firstname" required="required" placeholder="  Prenom*">
+
+
+                            <label>Ateliers</label>
+                            <div class="atelier">
+
+                            <select name="firstname" class="atelier" id="atelier" required="required" >
+                            <option value="Aquarelle">Aquarelle</option>
+                            <option value="Acrylique">Acrylique</option>
+                            <option value="Portrait">Portrait</option>
+                            </select>
+
                             </div>
 
-                            <div class="form-group">
-                                <input name="email" type="email" class="form-control" id="email" required="required" placeholder="  E-mail*">
+
+
+                            <label>E-mail</label>
+                            <div class="email">
+                                <input name="email" type="email" class="form-control" id="email" required="required" placeholder=" mail*">
                             </div>
 
-                            <div class="form-group">
-                                <input name="phone" type="phone" class="form-control" id="phone" required="required" placeholder=" Téléphone*">
+
+
+                            <label>Téléphone</label>
+                            <div class="phone">
+                                <input name="phone" type="phone" class="form-control" id="phone" required="required" placeholder=" tel*">
                             </div>
 
-                        </div>
 
-                        <div class="col-md-6 col-sm-6">
-                            <textarea name="message" type="text" class="form-control" id="message" rows="24" required="required" placeholder="  Message*"></textarea>
-                        </div>
 
-                        <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+
+                            <br>
+                            <br>
+                            
+
                             <div class="text-center">
                                 <button type="submit" id="submit" name="submit" class="btn btn-send">Envoyer </button>
                             </div>
+
+
                         </div>
+                            <div class="col-md-6 col-sm-6">
+                            <label class="msg">Message</label>
+
+                                <textarea name="message" type="text" class="form-control" id="message" rows="18" required="required" placeholder="  message*"></textarea>
+                            </div>
 
                 </form>
                 </div>
-            </div>
-        </div>
+     
     </div>
+
 </section>
 
 
@@ -362,70 +393,133 @@
 
 
 
+<!------------------------------------ FORMULAIRE DE CONTACT  ----------------------------------------->
+
+
+
+
+<div class="évé1">
+
+    <h2 class="formcont" id="formcont"> Besoin d'un renseignement ? </h2>
 
 
 
 
 
+    <section class="contact-form" id="forme">
+    <div class="container1">
+    <div class="row">
+
+        <form class="contact-form" method="post" action="{{ route('contact.send') }}">
+        @csrf
 
 
+        <div class="col-md-6 col-sm-6">
+                
 
-    <div class="évé1">
-
-
-
-
-    <h2 class="formcont" id="formcont"> Besoin d'un renseignement?  </h2>
-
-
-<section class="contact-form" id="forme">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
-                <div class="row">
-                <form class="contact-form" method="post" action="{{ route('contact.send') }}">
-                        @csrf
-                        <div class="col-md-6 col-sm-6">
-                        <div class="form-group">
-                              
-                            <div class="form-group">
-                                <input  name="name" type="text" class="form-control" id="name" required="required" placeholder="  Nom*">
-                            </div>
-
-                            <div class="form-group">
-                                <input  name="firstname" type="text" class="form-control" id="firstname" required="required" placeholder="  Prenom*">
-                            </div>
-
-                            <div class="form-group">
-                                <input name="email" type="email" class="form-control" id="email" required="required" placeholder="  E-mail*">
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-sm-6">
-                            <textarea name="message" type="text" class="form-control" id="message" rows="24" required="required" placeholder="  Message*"></textarea>
-                        </div>
-
-                        <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-                            <div class="text-center">
-                                <button type="submit" id="submit" name="submit" class="btn btn-send">Envoyer </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+            <label class="label">Nom</label>
+            <div class="name">
+                <input  name="name" type="text" class="form-control1" id="name" required="required" 
+                placeholder=" nom*">
             </div>
+
+
+
+
+            <label class="label">Prénom</label>
+            <div class="prenom">
+                <input name="firstname" type="firstname" class="form-control1" id="prenom" required="required" 
+                placeholder=" prenom*">
+            </div>
+
+
+
+            <label class="label">E-mail</label>
+            <div class="email">
+                <input name="email" type="email" class="form-control1" id="email" required="required" 
+                placeholder=" mail*">
+            </div>
+
+
+
+            <label class="label">Message</label>
+
+            <textarea name="message" type="text" class="form-control1" id="message1" rows="23" required="required" 
+            placeholder="  message*"></textarea>
+
+
+
+
+            <div class="text-center">
+            <button type="submit" id="submit1" name="submit" class="btn btn-send">Envoyer </button>
+            </div>
+
+
         </div>
+        
+            
+        </form>
+
     </div>
-</section>
-
-
-
     </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+<!------------------------------------------- Réseaux sociaux ---------------------------------------->
+
+
+<h2 class="rs" id="rs"> Vous pouvez également me suivre sur les réseaux... </h2>
+
+
+                    <div class="col">
+                        <a href="https://github.com/" target = "_blank"><img src="frontend/images/icones/facebook.png" class="img1-fluidee" id="ic1" alt="Sample photo" width="50" height="50"></a>
+                    </div>
+
+
+                    <div class="col">
+                        <a href="https://www.instagram.com/" target = "_blank"><img src="frontend/images/icones/instagram.png" class="img1-fluidee" id="ic2" alt="Sample photo" width="50" height="50"></a>
+                    </div>
+
+
+                    <div class="col">
+                        <a href="https://www.linkedin.com/" target = "_blank"><img src="frontend/images/icones/linkedin.png"  class="img1-fluidee" id="ic3" alt="Sample photo" width="50" height="50"></a>
+                    </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
 <p class="content">
     directed by Cynthia BOULEVARD
 </p>
 
 
+
+
+
+                           <!-- liens pour le package toastr -->
 
 @if ($errors->any())
     @foreach ($errors->all() as $error)
