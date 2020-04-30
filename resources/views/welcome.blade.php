@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,8 +21,13 @@
 
 
 
-<!----------------------------------------- Section connexion ---------------------------------------->
+
+
+
     <body>
+
+<!----------------------------------------- Section connexion ---------------------------------------->
+  
 
 
 
@@ -38,171 +45,210 @@
                     @endauth
                 </div>
             @endif
-
-
-
-
-
-<!---------------------------------- QUI SUIS-JE--------------------------------------------->
-            <div class="content">
-  
-                <!-- <img src="{{ asset('frontend/images/IMG2.jpg') }}" alt="pain" class="imgprin" height="498px" width="1009px" >  -->
-
-
-            </div>
-
-            </div>
-            </div>
- 
         </div>
 
+
+
+
+<!-------------------------------------- IMG PRINCIPAL + NAVBAR---------------------------------------->
+        <div class="content">
+
+            <img src="{{ asset('frontend/images/5.jpg') }}" alt="pain" class="imgprin" height="550px" width="887px" > 
+
+        </div>
+ 
+
         <ul>
-            <li><a class="lien" href="#quisuis-je">Qui suis-je ? </a></li>
-            <li><a class="lien" href="#mesréal">Réalisations</a></li>
-            <li><a class="lien" href="#atelier">Ateliers</a></li>
-            <li><a class="lien" href="#formcont">Contact</a></li>
+            <li><a class="lien" href="#quisuis-je"> Qui suis-je ? </a></li>
+            <li><a class="lien" href="#mesréal"> Réalisations </a></li>
+            <li><a class="lien" href="#atelier"> Ateliers </a></li>
+            <li><a class="lien" href="#formcont"> Contact </a></li>
         </ul>
 
 
+
+
+<!------------------------------------------ QUI SUIS-JE------------------------------------------------>
+
+
         <div class="col-sm-12">
-        <blockquote class="content" id="quisuis-je">
+
+            <blockquote class="content" id="quisuis-je">
 
         
         <br>
+<!-- texte -->
+                <h1 class="">Qui suis-je ?</h1>
 
-        <h1 class="">Qui suis-je ?</h1>
-        <h5 class=""> PEINTRE OUI MAIS PAS QUE...</h5>
-        <p class=""> Artiste peintre autodidacte, d'origine brésiellienne, je me suis fais connaitre très <br>
-                    réccement en 2016, grâce à de nombreuses expositions en salons internationaux. <br>
-                    Mais néanmoins je n'ai jamais céssé de peindre, et cela ne date pas d'hier car ma passion <br>
-                    est née depuis que je suis en âge de tenir un pinceau. J'aime jouer avec la matière, <br>
-                    la controller, changer son aspect initial. <br>
-                    Bien que j'adore expérimenter les matières plus épaisses tel que l'acrylique <br>
-                    et la peinture à l'huile. Mais j'ai tout de même une préférence particulière pour <br>
-                    l'aquarelle. Cette matière permet une liberté sans fin, c'est donc pour cela que <br>
-                    je me suis spécialisé dans cette technique depuis quelques années. <br>
-                    Je tire mon inspiration de mes nombreux voyages à travers le monde.  
-        </p>
-        </blockquote>
+                <h5 class=""> PEINTRE OUI MAIS PAS QUE...</h5>
+
+                    <p class=""> Artiste peintre autodidacte, d'origine brésielienne, je me suis faits connaitre très <br>
+                            réccement en 2016, grace à de nombreuses expositions en salons internationaux. <br>
+                            Mais néanmoins je n'ai jamais cessé de peindre, et cela ne date pas d'hier car ma passion <br>
+                            est née depuis que je suis en âge de tenir un pinceau. J'aime jouer avec la matière, <br>
+                            la contrôler, changer son aspect initial. <br>
+                            Bien que j'adore expérimenter les matières plus épaisses telles que l'acrylique <br>
+                            et la peinture à l'huile. Mais j'ai tout de même une préférence particulière pour <br>
+                            l'aquarelle. Cette matière permet une liberté sans fin, c'est donc pour cela que <br>
+                            je me suis spécialisé dans cette technique depuis quelques années. <br>
+                            Je tire mon inspiration de mes nombreux voyages à travers le monde.  
+                    </p>
+
+            </blockquote>
+
         </div>
 
+<!-- photo portrait -->
+<!-- 
+<div class="col-sm-12">
+
+<img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
+
+</div> -->
 
 
 
-<!-- texte sur image1 -->
 
 
                         
                 
     
-    <!-- <img src="images/forme7.png" class="img1-fluid" id="form7" alt="Sample photo" width="700" height="400"> -->
 
 
-<!-- <div class="row text-center" >
 
-    <div class="col-sm-12"><a href="qui-suis-je.html" class="button">En savoir plus</a>
-
-</div>  -->
-</blockquote>
-</section>
 
 
 
 <!-------------------------------------------- MES RÉALISATIONS ------------------------------------->
 
-   <!-- titre & sous-titre -->
+<!-- titre & sous-titre -->
+
     <blockquote class="content">
+
     <br>
     <br>
-    <h2 class="titreprin2" id="mesréal" >Mes réalisations</h2> 
-    <h6 class="soustitre2">PEINTURES & WEB</h6>
+
+
+    <h1 class="titre2"> Mes réalisations </h1>
+    <h6 class="soustitre2">AQUARELLES, ACRYLIQUES...</h6>
 
     </blockquote>
 
   
 
-<!-- PHOTOS -->
+
+<!-- images -->
+
     <div class="content">
-    <div class="row text-center">
+
+        <div class="row text-center">
 
 
-        <div class="col-sm-4">
-            <div class="port1"> 
-                <!-- <img src="images/feuille1.JPG" class="img-fluid" alt="Sample photo"  > -->
-                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
+            <div class="col-sm-4">
+                <div class="port1"> 
 
-                <div class="overlay">
-                    <h4 class="text">Illustration main <br>
-                        crayons couleurs / Gouache</h4>
-                </div>
-            </div> 
-        </div>
+            
+                    <img src="{{ asset('frontend/images/1.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
+            
+                    <div class="overlay">
+                        <div class="text">Illustration main <br>
+                            crayons couleurs / Gouache</div>
+                    </div>
 
-        <div class="col-sm-4">
-            <div class="port2"> 
 
-                <!-- <img src="images/age/agecol5.jpg" class="img-fluid" alt="Sample photo" width="250" height="250"> -->
-                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
-
-                <div class="overlay">
-                    <div class="text">Sites Amazodrones <br>
-                                        Wordpress</div>
-                                    </div>
+                </div> 
             </div>
-        </div>
 
-        <div class="col-sm-4">
-            <div class="port3"> 
-                <!-- <img src="images/profil.JPG" class="img-fluid" alt="Sample photo" width="250" height="250" > -->
-                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
 
-                <div class="overlay">
-                    <div class="text">Illustration numérique </div>
+            <div class="col-sm-4">
+                <div class="port2"> 
+
+
+                    <img src="{{ asset('frontend/images/2.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
+
+                    <div class="overlay">
+                        <div class="text">Sites Amazodrones <br>
+                                            Wordpress</div>
+                    </div>
+
+
                 </div>
             </div>
+
+            <div class="col-sm-4">
+                <div class="port3"> 
+
+
+                    <img src="{{ asset('frontend/images/3.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
+
+                    <div class="overlay">
+                        <div class="text">Illustration numérique </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
         </div>
+
+
+
+        <div class="row text-center">
+
+            <div class="col-sm-4">
+                <div class="port4"> 
+
+
+                    <img src="{{ asset('frontend/images/4.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
+
+                    <div class="overlay">
+                        <div class="text">Site Bees Work Café <br>
+                                        Laravel</div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="col-sm-4">
+                <div class="port5"> 
+
+
+                    <img src="{{ asset('frontend/images/6.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
+
+                    <div class="overlay">
+                        <div class="text">Illustration aquarelle </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+            <div class="col-sm-4">
+                <div class="port6">
+
+
+                    <img src="{{ asset('frontend/images/7.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
+
+                    <div class="overlay">
+                        <div class="text">Site A.G.E <br> 
+                                            Wordpress</div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </div> 
+
+
     </div>
 
-    <div class="row text-center">
 
-        <div class="col-sm-4">
-            <div class="port4"> 
-                <!-- <img src="images/age/age6col.jpg" class="img-fluid" alt="Sample photo" width="250" height="250"> -->
-                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
 
-                <div class="overlay">
-                    <div class="text">Site Bees Work Café <br>
-                                    Laravel</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-sm-4">
-            <div class="port5"> 
-                <!-- <img src="images/paradis2c.jpg" class="img-fluid" alt="Sample photo" width="250" height="250"> -->
-                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
-
-                <div class="overlay">
-                    <div class="text">Illustration aquarelle </div>
-                </div>
-                
-            </div>
-        </div>
-
-        <div class="col-sm-4">
-            <div class="port6"> 
-                <!-- <img src="images/age/agecol1.jpg" class="img-fluid" alt="Sample photo" width="250" height="250"> -->
-                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
-
-                <div class="overlay">
-                    <div class="text">Site A.G.E <br> 
-                                        Wordpress</div>
-                </div>
-            </div>
-        </div>
-
-    </div> 
-    </div>
 
 <blockquote class="content">
    
@@ -227,8 +273,8 @@
 
 
     <blockquote class="content">
-    
-    <h2 class="titreprin2" id="atelier" >Ateliers</h2> 
+    <h1 class="titre3"> Nos ateliers </h1>
+
 
     <p class="textréal2"> Nous organisons tout au long de l'année des ateliers. Il y a 3 types <br>
         d'ateliers auxquelles vous pouvez vous inscrires chaques mois:  <br>
@@ -246,51 +292,83 @@
     <div class="row text-center">
 
 
+    
         <div class="col-sm-4">
+
             <div class="port7"> 
-                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="250" height="250"> 
 
+                <img src="{{ asset('frontend/images/6.jpg') }}" alt="Sample photo" class="img-fluid" width="250" height="250"> 
+
+                
                 <div class="overlay">
-                    <h4 class="text">Illustration main <br>
-                        crayons couleurs / Gouache</h4>
-                </div>
+                        <div class="text">Aquarelle <br> 
+                                            90€</div>
+                    </div>
 
 
-            </div> 
+            </div>
+
+            <h4 class="titreat1"> l'atelier Aquarelle </h4>
+
+<p class="txtaqua">Amateur de douceur ? Alors venez participer à notre atelier aquarelle. 3h durant lequels vous pourrez 
+    découvrir ou redécouvrir à la manipuler. (Tout le matèriel est compris dans le tarif) 
+</p>
+
+
+
         </div>
 
 
 
 
         <div class="col-sm-4">
+
             <div class="port8"> 
 
-                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="250" height="250"> 
+                <img src="{{ asset('frontend/images/1.jpg') }}" alt="Sample photo" class="img-fluid" width="250" height="250"> 
+
+
 
                 <div class="overlay">
-                    <h4 class="text">Sites Amazodrones <br> 
-                    Wordpress</h4>                     
-                </div>
-
-              
+                <div class="text">Acrylique <br> 
+                                    150€</div>
+                    </div>
 
             </div>
+
+
+            <h4 class="titreat2"> l'atelier Acrylique</h4>
+
+<p class="txtacri">Vous préférez peut-être plus de matière? L'atelier acrylique c'est ce qu'il vous faut. 3h durant lequels vous pourrez 
+    apprendre à manipuler à votre guise. (Tout le matèriel est compris dans le tarif)
+</p>
+
         </div>
 
 
 
 
         <div class="col-sm-4">
+
             <div class="port9"> 
 
-                <img src="{{ asset('frontend/images/food41.jpg') }}" alt="Sample photo" class="img-fluid" width="250" height="250"> 
+                <img src="{{ asset('frontend/images/7.jpg') }}" alt="Sample photo" class="img-fluid" width="250" height="250"> 
+
 
                 <div class="overlay">
-                    <h4 class="text">Illustration numérique </h4>
-                </div>
+                <div class="text">Portrait<br> 
+                                            70€</div>
+                    </div>
 
 
             </div>
+
+            <h4 class="titreat3"> l'atelier Portrait </h4>
+
+<p class="txtpor">Ou alors vous préférez tout simplement prendre un crayon et déssiner les courbes du visage ? C'est cette atelier qu'il vous faut.
+    Durant 3h je vous apprendrez à manier votre crayon. (Tout le matèriel est compris dans le tarif) 
+</p>
+
         </div>
 
 
@@ -474,7 +552,7 @@
 <!------------------------------------------- Réseaux sociaux ---------------------------------------->
 
 
-<h2 class="rs" id="rs"> Vous pouvez également me suivre sur les réseaux... </h2>
+<h3 class="rs" id="rs"> Vous pouvez également me suivre sur les réseaux... </h3>
 
 
                     <div class="col">
