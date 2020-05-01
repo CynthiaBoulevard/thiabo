@@ -53,7 +53,7 @@
 <!-------------------------------------- IMG PRINCIPAL + NAVBAR---------------------------------------->
         <div class="content">
 
-            <img src="{{ asset('frontend/images/5.jpg') }}" alt="pain" class="imgprin" height="550px" width="887px" > 
+            <img src="{{ asset('frontend/images/5.jpg') }}" alt="pain" class="imgprin" id="imgprin" height="550px" width="887px" > 
 
         </div>
  
@@ -78,19 +78,19 @@
         <br>
         <br>
 <!-- texte -->
-                <h1 class="">Qui suis-je ?</h1>
+                <h1 class="qsj">Qui suis-je ?</h1>
 
-                <h5 class=""> PEINTRE OUI MAIS PAS QUE...</h5>
+                <h5 class="sqsj"> PEINTRE OUI MAIS PAS QUE...</h5>
 
-                    <p class=""> Artiste peintre autodidacte, d'origine brésielienne, je me suis faits connaitre très <br>
-                            réccement en 2016, grace à de nombreuses expositions en salons internationaux. <br>
-                            Mais néanmoins je n'ai jamais cessé de peindre, et cela ne date pas d'hier car ma passion <br>
-                            est née depuis que je suis en âge de tenir un pinceau. J'aime jouer avec la matière, <br>
-                            la contrôler, changer son aspect initial. <br>
-                            Bien que j'adore expérimenter les matières plus épaisses telles que l'acrylique <br>
-                            et la peinture à l'huile. Mais j'ai tout de même une préférence particulière pour <br>
-                            l'aquarelle. Cette matière permet une liberté sans fin, c'est donc pour cela que <br>
-                            je me suis spécialisé dans cette technique depuis quelques années. <br>
+                    <p class="txtqsj"> Artiste peintre autodidacte, d'origine brésielienne, je me suis faits connaitre très 
+                            réccement en 2016, grace à de nombreuses expositions en salons internationaux. 
+                            Mais néanmoins je n'ai jamais cessé de peindre, et cela ne date pas d'hier car ma passion 
+                            est née depuis que je suis en âge de tenir un pinceau. J'aime jouer avec la matière, 
+                            la contrôler, changer son aspect initial. 
+                            Bien que j'adore expérimenter les matières plus épaisses telles que l'acrylique 
+                            et la peinture à l'huile. Mais j'ai tout de même une préférence particulière pour
+                            l'aquarelle. Cette matière permet une liberté sans fin, c'est donc pour cela que 
+                            je me suis spécialisé dans cette technique depuis quelques années. 
                             Je tire mon inspiration de mes nombreux voyages à travers le monde.  
                     </p>
 
@@ -148,7 +148,7 @@
                 <div class="port1"> 
 
             
-                    <img src="{{ asset('frontend/images/1.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
+                    <img src="{{ asset('frontend/images/1.jpg') }}" alt="Sample photo" class="img-fluid1" width="200" height="200"> 
             
                     <div class="overlay">
 
@@ -168,7 +168,7 @@
                 <div class="port2"> 
 
 
-                    <img src="{{ asset('frontend/images/2.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
+                    <img src="{{ asset('frontend/images/2.jpg') }}" alt="Sample photo" class="img-fluid2" width="200" height="200"> 
 
                     <div class="overlay">
                         <div class="text">Illustration Acrylique<br>
@@ -183,7 +183,7 @@
                 <div class="port3"> 
 
 
-                    <img src="{{ asset('frontend/images/3.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
+                    <img src="{{ asset('frontend/images/3.jpg') }}" alt="Sample photo" class="img-fluid3" width="200" height="200"> 
 
                     <div class="overlay">
                         <div class="text">Illustration Acrylique <br>
@@ -206,7 +206,7 @@
                 <div class="port4"> 
 
 
-                    <img src="{{ asset('frontend/images/4.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
+                    <img src="{{ asset('frontend/images/4.jpg') }}" alt="Sample photo" class="img-fluid4" width="200" height="200"> 
 
                     <div class="overlay">
                         <div class="text">Illustration Gouache 
@@ -222,7 +222,7 @@
                 <div class="port5"> 
 
 
-                    <img src="{{ asset('frontend/images/6.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
+                    <img src="{{ asset('frontend/images/6.jpg') }}" alt="Sample photo" class="img-fluid5" width="200" height="200"> 
 
                     <div class="overlay">
                         <div class="text">Illustration aquarelle </div>
@@ -236,7 +236,7 @@
                 <div class="port6">
 
 
-                    <img src="{{ asset('frontend/images/7.jpg') }}" alt="Sample photo" class="img-fluid" width="200" height="200"> 
+                    <img src="{{ asset('frontend/images/7.jpg') }}" alt="Sample photo" class="img-fluid6" width="200" height="200"> 
 
                     <div class="overlay">
                         <div class="text">Portrait stylo à <br> 
@@ -258,11 +258,11 @@
 
 <blockquote class="content">
    
-    <p class="textréal"> Artiste peintre autodidacte, d'origine brésiellienne, je me suis fais connaitre très <br>
-                        réccement en 2016, grâce à de nombreuses expositions en salons internationaux. <br>
-                        Mais néanmoins je n'ai jamais céssé de peindre, et cela ne date pas d'hier car ma passion <br>
-                        est née depuis que je suis en âge de tenir un pinceau. J'aime jouer avec la matière, <br>
-                        la controller, changer son aspect initial. <br>
+    <p class="textréal"> Artiste peintre autodidacte, d'origine brésiellienne, je me suis fais connaitre très 
+                        réccement en 2016, grâce à de nombreuses expositions en salons internationaux. 
+                        Mais néanmoins je n'ai jamais céssé de peindre, et cela ne date pas d'hier car ma passion 
+                        est née depuis que je suis en âge de tenir un pinceau. J'aime jouer avec la matière, 
+                        la controller, changer son aspect initial. 
                  
                         
                         

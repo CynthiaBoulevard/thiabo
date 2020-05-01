@@ -138,17 +138,14 @@ color: #111;
 }
 
 
+
+/***************************************** QUI SUIS-JE ? ******************************************/
+
+
 /***************************************** MES RÉALISATIONS ******************************************/
 
 
 /* titre et sous-titre */
-
-
-
-
-
-
-
 
 .titre2
 {
@@ -684,3 +681,1006 @@ button
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************** MÉDIAS QUÉRIES ********************************************/
+
+
+
+
+
+
+/*-------------------------  pour ecran extra large  -------------------------*/
+/* 
+@media (min-width: 1366px){
+	.section-title
+	{ */
+		/*padding: 190px 0px;
+		margin: 0px 90px 0px 140px;*/
+		/* font-size: 90px;
+	}
+	.custom-navbar-default
+	{
+		padding: 18px 0px;
+	}
+	.owl-carousel
+	{
+		margin-top: 94px;
+	}
+}
+
+@media (min-width: 1500px) {
+	.section-icon {
+		left: 48%;
+		margin-left: -25px;
+	}
+
+	.section-title {
+		padding: 20% 10% 20% 25%;
+	}
+
+	.section-content {
+		padding: 10% 40% 10% 12%;
+	}
+
+	.bread .section-bg,
+	.beer .section-bg {
+		background-position-x: 62%, 80%;
+		background-size: 330px, 264px;
+	}
+
+
+
+} */
+
+
+
+
+/*------------------------------  pour petit écran (Tablette) -------------------------*/
+
+@media (max-width: 991px) and (min-width: 768px){
+
+
+html 
+{
+    background-color: rgb(194, 201, 98);
+    padding-right:-50px ;
+    color: #000000;
+    /* font-family: 'Nunito', sans-serif; */
+    font-weight: 200;
+    overflow-x : hidden;
+
+}
+
+
+body
+{
+    background-color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 0px;
+    margin-top: -5px;
+    
+    color: rgb(0, 0, 0);
+
+}
+
+.flex-center 
+{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref 
+{
+    position: relative;
+}
+
+.top-right 
+{
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content 
+{
+    text-align: center;
+}
+
+
+/****************************************** ESPACE CONNEXION *****************************************/
+
+
+a 
+{
+    color: #ffffff;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+#co
+{
+    color: black;
+    font-size: 10px;
+}
+
+
+#co:hover 
+{
+    color: rgb(194, 201, 98);
+}
+
+
+
+/****************************************** IMAGE PRINCIPALE *******************************************/
+
+
+.imgprin
+{
+    margin-top: 40px;
+    width: 100%;
+    height: 50%;
+}
+
+
+
+
+/************************************************* NAVBAR **********************************************/
+
+
+
+ul 
+{
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(194, 201, 98);
+  position: -webkit sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index:1000;
+  margin-top: -40px;
+}
+
+
+li 
+{
+  float: inline-start;
+  margin-left: 28px;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding:20px;
+  text-decoration: none;
+}
+
+a:hover 
+{
+color: #111;
+}
+
+.lien{
+    margin-right: -10px;
+    font-size: 12px;
+
+}
+
+
+/***************************************** QUI SUIS-JE ? ******************************************/
+
+.qsj
+{
+    font-size: 35px;
+}
+
+
+
+.txtqsj
+{
+    width: 70%;
+    margin-left: 80px;
+}
+
+
+
+/***************************************** MES RÉALISATIONS ******************************************/
+
+
+/* titre et sous-titre */
+
+.titre2
+{
+    /* font-family: 'Petit Formal Script', cursive;  */
+    /* color:rgb(190, 117, 32); */
+    color:rgb(0, 0, 0);
+    font-size: 35px;
+    margin-top: 150px;
+
+}
+
+.soustitre2
+{
+    color:rgb(0, 0, 0);
+    /* font-family: 'Raleway', sans-serif; */
+    margin-bottom: 70px;
+    font-size: 10px;
+
+}
+
+
+
+
+
+/* images */
+
+
+/* effet HOVER image */
+
+
+.overlay 
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    /* background-color: rgb(209, 69, 4); */
+    background-color: rgb(87, 109, 26);
+}
+
+
+
+.text 
+{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+.img-fluid1
+{
+    width: 105%;
+    height: 105%;
+    margin-left: -80px;
+}
+
+
+.img-fluid2
+{
+    width: 105%;
+    height: 105%;
+    margin-left: -215px;
+    margin-top: 48px;
+
+}
+
+
+.img-fluid3
+{
+    width: 105%;
+    height: 105%;
+    margin-left: -355px;
+    margin-top: 48px;
+
+}
+
+
+.img-fluid4
+{
+    width: 105%;
+    height: 105%;
+    margin-left: -80px;
+    margin-top: -15px;
+
+}
+
+
+.img-fluid5
+{
+    width: 105%;
+    height: 105%;
+    margin-left: -215px;
+    margin-top: 65px;
+
+}
+
+
+.img-fluid6
+{
+    width: 105%;
+    height: 105%;
+    margin-left: -355px;
+    margin-top: 45px;
+}
+
+
+
+.port1
+{
+    position: relative;
+   
+    /* font-family: 'Raleway', sans-serif; */
+}
+
+
+
+.port1:hover  .overlay 
+{
+        opacity: 1;
+}  
+
+
+
+
+
+
+
+  
+.port2
+{
+    margin-top: -196px;
+    margin-left: 345px;
+    position: relative;
+    width: 22.5%;
+    /* font-family: 'Raleway', sans-serif; */
+
+}
+  
+.port2:hover  .overlay 
+{
+        opacity: 1;
+}  
+
+
+
+.port3
+{
+    margin-top: -185px;
+    margin-left: 610px;
+    position: relative;
+    width: 22.5%;
+    /* font-family: 'Raleway', sans-serif; */
+}
+
+
+.port3:hover  .overlay 
+{
+    opacity: 1;
+}  
+
+
+.port4
+{
+    margin-top: 30px;
+    margin-left: 80px;
+    position: relative;
+    width: 22.5%;
+    /* font-family: 'Raleway', sans-serif; */
+
+}
+
+
+.port4:hover  .overlay 
+{
+    opacity: 1;
+}  
+
+.port5
+{
+    margin-top: -215px;
+    margin-left: 345px;
+    position: relative;
+    width: 22.5%;
+    /* font-family: 'Raleway', sans-serif; */
+
+}
+
+.port5:hover  .overlay 
+{
+    opacity: 1;
+}  
+
+
+.port6
+{
+    margin-top: -190px;
+    margin-left: 610px;
+    margin-right: 100px;
+    position: relative;
+    width: 22.5%;
+    /* font-family: 'Raleway', sans-serif; */
+
+}
+
+.port6:hover  .overlay 
+{
+    opacity: 1;
+}  
+
+
+
+
+
+
+.textréal
+{
+    /* font-family: 'Raleway', sans-serif; */
+    margin-top:50px ;
+    margin-bottom:180px;
+    width: 70%;
+    margin-left: 80px;
+}
+
+
+
+
+/******************************************* LES ATELIERS ******************************************/
+
+
+.titre3
+{
+    margin-top: 30px
+}
+
+
+
+/* images */
+
+.port7
+{
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    position: relative;
+    width: 28.2%;
+    /* font-family: 'Raleway', sans-serif; */
+ 
+}
+
+.port7:hover  .overlay 
+{
+        opacity: 1;
+}  
+
+
+
+
+.port8
+{
+    margin-top: -439px;
+    margin-bottom: 0px;
+    margin-left: 320px;
+    position: relative;
+    width: 28.2%;
+    /* font-family: 'Raleway', sans-serif; */
+
+}
+  
+.port8:hover  .overlay 
+{
+        opacity: 1;
+}  
+
+
+
+.port9
+{
+    margin-top: -462px;
+    margin-bottom: 0px;
+    margin-left: 608px;
+    position: relative;
+    width: 28.2%;
+    /* font-family: 'Raleway', sans-serif; */
+}
+
+.port9:hover  .overlay 
+{
+    opacity: 1;
+}  
+
+
+
+
+/* texte de chaque atelier */
+
+
+.titreat1
+{
+    margin-left: -580px;
+
+}
+
+.titreat3
+{
+    margin-left: 580px;
+}
+
+
+
+
+.txtaqua
+{
+    margin-left: 20px;
+    width: 30%;
+
+}
+
+.txtacri
+{
+    margin-left: 310px;
+    width: 30%;
+}
+
+.txtpor
+{
+    margin-left: 600px;
+    width: 30%;
+
+}
+
+
+
+
+
+
+
+
+
+/* FORMULAIRE D'INSCRIPTION ATELIER */
+
+
+#formcont1
+{
+    margin-top: 150px;
+    margin-left: 360px;
+}
+
+
+
+.formcont
+{
+    margin-left: 300px;
+}
+
+
+
+.contact-form
+{
+    margin-left: 100px;
+    margin-bottom: 100px;
+    display: flex;
+
+}
+
+
+
+.form-control
+{
+    border-style: solid;
+    margin-bottom: 10px;
+}
+
+
+
+.atelier
+{
+    width: 100%;
+    border-style: solid;
+
+}
+
+
+
+.container
+{
+    /* background-color: rgb(209, 69, 4); */
+    background-color: rgb(87, 109, 26);
+    padding-right: 150px;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    border-radius: 2%;
+}
+
+
+
+
+button
+{
+    background: gray;
+    color: white;
+    border: 0;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+
+
+#message 
+{
+    display: flex;
+    flex-direction: column;
+    order: 2;
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 120%;
+
+}
+
+
+
+#message > textarea
+{
+    flex: 1; 
+    min-width: 18em;
+}
+
+
+
+.msg
+{
+    margin-left: 30px;
+
+}
+
+
+
+
+
+/*********************************************** CONTACT **********************************************/
+
+
+
+.évé1
+{
+    background-color: rgb(43, 48, 38);
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+
+
+#formcont
+{
+    margin-left: 290px;
+    padding-bottom: 50px;
+}
+
+.container1
+{
+    margin-left: 30px;
+}
+
+
+#submit1
+{
+    margin-top: 50px;
+    border-radius: 0px;
+
+}
+
+
+
+.form-control1
+{
+    width: 180%;
+    border-style: solid;
+    margin-bottom: 10px;
+
+} 
+
+
+
+.label
+{
+    color: whitesmoke;
+}
+
+
+#formcont
+{
+    color: blanchedalmond;
+}
+
+
+
+
+.btnsend:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #3e8e41;
+
+  }
+
+/***************************************** RÉSEAUW SOCIAUX ********************************************/
+
+.rs
+{
+
+    margin-top: -20px;
+    margin-bottom: 80px;
+    margin-right: 0px;
+    margin-left: 230px;
+}
+
+
+
+#ic1
+{
+    margin-bottom: 25px;
+    margin-right: 0px;
+    margin-left: 300px;
+}
+
+
+#ic2
+{
+    margin-top: -130px;
+    margin-bottom: 45px;
+    margin-left: 420px;
+
+}
+
+
+#ic3
+{
+    margin-top: -120px;
+    margin-bottom: 70px;
+    margin-left: 550px;
+    
+}
+
+
+
+
+
+
+
+#ic1:hover 
+{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+  transition: transform .2s;
+}
+
+
+#ic2:hover 
+{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+  transition: transform .2s;
+}
+
+
+#ic3:hover 
+{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+  transition: transform .2s;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------  pour très petit écran (smartphone)-------------------------*/
+
+@media (max-width: 767px) 
+{
+	.custom-navbar-default {
+		padding: 15px 0px;
+	}
+
+	.navbar-default .navbar-brand {
+		font-size: 30px;
+	}
+
+	#about
+	{
+		margin-top: 250px;
+	}
+
+
+	.owl-carousel {
+		margin-top: 80px;
+	}
+
+	.owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(1) .item,
+	.owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(2) .item,
+	.owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(3) .item {
+		background-position: center;
+	}
+
+	.owl-theme .owl-controls .owl-buttons .owl-prev {
+		right: 20%;
+	}
+
+	.owl-theme .owl-controls .owl-buttons .owl-next {
+		right: 5%;
+	}
+
+	.header-title {
+		font-size: 45px;
+		margin-bottom: 5px;
+	}
+
+	.header-sub-title {
+		margin-left: 3px;
+	}
+
+	.section-content {
+		padding: 12% 15%;
+	}
+
+	.section-content-title {
+		font-size: 45px;
+	}
+
+	.section-header {
+		padding-top: 0px;
+	}
+
+	.pricing-title {
+		margin-bottom: 15px;
+		font-size: 25px;
+	}
+
+	#filter-list li {
+		font-size: 14px;
+	}
+
+	#menu-pricing .item {
+		width: 40%;
+	}
+
+	#menu-pricing .item h2 {
+		margin: 0px;
+		padding: 0px;
+		font-size: 27px;
+	}
+
+	.menu-price li a:hover .menu-desc span {
+		padding: 0px;
+		line-height: 18px;
+		font-size: 12px;
+	}
+
+	.menu-price li a .menu-desc span h3 {
+		font-size: 19px;
+		margin-bottom: 12px;
+	}
+
+	.section-title {
+		font-size: 40px;
+  		padding: 18% 10%;
+	}
+
+	.contact .section-title {
+		padding: 10% 20% 20% 20%;
+	}
+
+	.menu {
+		text-align: center;
+	}
+
+	.half {
+		width: 100%;
+	}
+
+	.per-head, .price {
+		float: none;
+	}
+
+	.opening-time {
+		margin-top: 25px;
+	}
+
+	.contact .section-content {
+		padding: 70px 0px;
+	}
+
+	.g-map img {
+		height: 137px;
+	}
+
+	.btn-reservation {
+		padding: 10px;
+	}
+
+	.parte{
+		font-size: 20px;
+		margin-left: 10px;
+	}
+
+	.partes{
+		font-size: 20px;
+		margin-left: -15px;
+	}
+
+	#bw 
+	{
+		margin-left: -40px;
+		font-size: 14px;
+	}
+	
+/* taille des produits */
+	#itemm
+	{
+		margin-top: -170px;
+	}
+
+
+
+
+}

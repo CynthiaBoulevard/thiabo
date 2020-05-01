@@ -7,12 +7,15 @@
         <div class="col-lg-12 margin-tb">
 
             <div class="pull-left">
-
-                <h2>Voir ateliers</h2>
+<br>
+<br>
+                <h2>Voir </h2>
 
             </div>
 
             <div class="pull-right">
+<br>
+<br>
 
                 <a class="btn btn-primary" href="{{ route('reservation.index') }}"> Retour</a>
 
@@ -29,9 +32,12 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
 
             <div class="form-group">
+                <br>
 
                 <strong>Nom:</strong>
 
+               
+                <td>{{ $reservation->name ?? ''}}</td>
 
             </div>
 
@@ -41,7 +47,9 @@
 
             <div class="form-group">
 
-                <strong>date:</strong>
+                <strong>Atelier:</strong>
+
+                <p>  {{ $reservation->firstname ?? '' }} </p>
 
 
             </div>
@@ -53,6 +61,8 @@
             <div class="form-group">
 
                 <strong>E-mail:</strong>
+
+                <p>  {{ $reservation->email ?? '' }} </p>
 
 
             </div>
@@ -66,6 +76,8 @@
 
                 <strong>Téléphone:</strong>
 
+                <p>  {{ $reservation->phone ?? '' }} </p>
+
 
             </div>
 
@@ -78,11 +90,15 @@
 
                 <strong> Message:</strong>
 
-                
+              <p>  {{ $reservation->message ?? '' }} </p>
+
+              
+
             </div>
 
         </div>
 
+        @csrf 
 
     </div>
 

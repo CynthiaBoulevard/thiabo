@@ -52,7 +52,7 @@
 
             <th>Nom</th>
 
-            <th>Prénom</th>
+            <th>Atelier</th>
 
             <th>E-mail</th>
 

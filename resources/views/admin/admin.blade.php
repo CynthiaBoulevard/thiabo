@@ -1,7 +1,26 @@
 
+
+
+<!DOCTYPE html>
+
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Tableau de bord</title>
+
+
+    </head>
+
+
+
 @extends('layouts.app')
 
 @section('content')
+
+<link rel="stylesheet" href="css/main.css" />
 
 
 
@@ -11,12 +30,12 @@
 <div class="col-sm-4">
 
 
-<div class="card" style="max-width: 20rem;">
+<div class="card" style="max-width: 16rem;">
 
 
 <div class="card-header">
 
-<h2>TABLEAU DE BORD</h2>
+<h4>Bienvenue {{ Auth::user()->name }}</h4>
 </div>
 
 
@@ -27,21 +46,14 @@
 
 
 
-    <li class="nav-item">
-
-
-    <a class="nav-link" href="">ATELIERS</a>
-    </li>
-
+  
 
 
     <li class="nav-item">
     <a class="nav-link" href="{{ route('reservation.index') }}">INSCRIPTIONS ATELIERS</a>
     </li>
 
-    <!-- <li class="nav-item">
-    <a class="nav-link" href="#">UTILISATEURS</a>
-    </li> -->
+   
 
     <li class="nav-item">
     <a class="nav-link" href="{{ route('contact.index') }}">MESSAGES</a>
@@ -54,31 +66,6 @@
 
     </div>
 </div>
-
-
-
-
-
-
- 
-
-
-
-    <div class="col-sm-8">
-
-
-    <div class="card-header">
-
-    <h5>Bienvenue <div class="email">{{ Auth::user()->name }}</div>
-</h5>
-
-    </div>
-
-    </div>
-
-    </div>
-
-
 
 
 
