@@ -1040,36 +1040,36 @@ color: #111;
 
 
 
-.port1
+/* .port1
 {
     position: relative;
    
-    /* font-family: 'Raleway', sans-serif; */
-}
+     font-family: 'Raleway', sans-serif;
+} */
 
 
-
+/* 
 .port1:hover  .overlay 
 {
         opacity: 1;
 }  
 
 
+ */
 
 
 
 
-
-  
+/*   
 .port2
 {
     margin-top: -196px;
     margin-left: 345px;
     position: relative;
-    width: 22.5%;
+    width: 22.5%; */
     /* font-family: 'Raleway', sans-serif; */
 
-}
+/* }
   
 .port2:hover  .overlay 
 {
@@ -1083,9 +1083,9 @@ color: #111;
     margin-top: -185px;
     margin-left: 610px;
     position: relative;
-    width: 22.5%;
+    width: 22.5%; */
     /* font-family: 'Raleway', sans-serif; */
-}
+/* }
 
 
 .port3:hover  .overlay 
@@ -1099,10 +1099,10 @@ color: #111;
     margin-top: 30px;
     margin-left: 80px;
     position: relative;
-    width: 22.5%;
+    width: 22.5%; */
     /* font-family: 'Raleway', sans-serif; */
 
-}
+/* }
 
 
 .port4:hover  .overlay 
@@ -1115,9 +1115,9 @@ color: #111;
     margin-top: -215px;
     margin-left: 345px;
     position: relative;
-    width: 22.5%;
+    width: 22.5%; */
     /* font-family: 'Raleway', sans-serif; */
-
+/* 
 }
 
 .port5:hover  .overlay 
@@ -1132,15 +1132,15 @@ color: #111;
     margin-left: 610px;
     margin-right: 100px;
     position: relative;
-    width: 22.5%;
+    width: 22.5%; */
     /* font-family: 'Raleway', sans-serif; */
 
-}
+/* }
 
 .port6:hover  .overlay 
 {
     opacity: 1;
-}  
+}   */
 
 
 
@@ -1166,6 +1166,43 @@ color: #111;
 {
     margin-top: 30px
 }
+
+.textréal2
+{
+    margin-bottom: -60px;
+
+}
+
+.img-fluid7
+{
+    width: 95%;
+    height: 95%;
+    margin-left: 0px;
+    margin-top: 65px;
+
+}
+
+
+.img-fluid8
+{
+    width: 95%;
+    height: 95%;
+    margin-left: -205px;
+    margin-top: 13px;
+}
+
+
+
+.img-fluid9
+{
+    width: 95%;
+    height: 95%;
+    margin-left: -402px;
+    margin-top: 13px;
+
+}
+
+
 
 
 
@@ -1231,13 +1268,13 @@ color: #111;
 
 .titreat1
 {
-    margin-left: -580px;
+    margin-left: -380px;
 
 }
 
 .titreat3
 {
-    margin-left: 580px;
+    margin-left: 365px;
 }
 
 
@@ -1246,20 +1283,24 @@ color: #111;
 .txtaqua
 {
     margin-left: 20px;
-    width: 30%;
+    width: 25%;
+    font-size: 13px;
 
 }
 
 .txtacri
 {
-    margin-left: 310px;
-    width: 30%;
+    margin-left: 215px;
+    width: 25%;
+    font-size: 13px;
+
 }
 
 .txtpor
 {
-    margin-left: 600px;
-    width: 30%;
+    margin-left: 420px;
+    width: 25%;
+    font-size: 13px;
 
 }
 
@@ -1277,26 +1318,17 @@ color: #111;
 #formcont1
 {
     margin-top: 150px;
-    margin-left: 360px;
+    margin-left: 220px;
 }
-
-
-
-.formcont
-{
-    margin-left: 300px;
-}
-
 
 
 .contact-form
 {
-    margin-left: 100px;
+    margin-left: 30px;
     margin-bottom: 100px;
     display: flex;
 
 }
-
 
 
 .form-control
@@ -1320,8 +1352,9 @@ color: #111;
 {
     /* background-color: rgb(209, 69, 4); */
     background-color: rgb(87, 109, 26);
-    padding-right: 150px;
-    padding-top: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: -60px;
     margin-bottom: 50px;
     border-radius: 2%;
 }
@@ -1364,7 +1397,6 @@ button
 .msg
 {
     margin-left: 30px;
-
 }
 
 
@@ -1386,7 +1418,7 @@ button
 
 #formcont
 {
-    margin-left: 290px;
+    margin-left: 150px;
     padding-bottom: 50px;
 }
 
@@ -1440,10 +1472,10 @@ button
 .rs
 {
 
-    margin-top: -20px;
+    margin-top: -50px;
     margin-bottom: 80px;
     margin-right: 0px;
-    margin-left: 230px;
+    margin-left: 100px;
 }
 
 
@@ -1452,24 +1484,24 @@ button
 {
     margin-bottom: 25px;
     margin-right: 0px;
-    margin-left: 300px;
+    margin-left: 150px;
 }
 
 
 #ic2
 {
-    margin-top: -130px;
+    margin-top: -110px;
     margin-bottom: 45px;
-    margin-left: 420px;
+    margin-left: 250px;
 
 }
 
 
 #ic3
 {
-    margin-top: -120px;
+    margin-top: -100px;
     margin-bottom: 70px;
-    margin-left: 550px;
+    margin-left: 350px;
     
 }
 

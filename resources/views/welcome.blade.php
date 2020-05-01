@@ -307,7 +307,7 @@
 
             <div class="port7"> 
 
-                <img src="{{ asset('frontend/images/6.jpg') }}" alt="Sample photo" class="img-fluid" width="250" height="250"> 
+                <img src="{{ asset('frontend/images/6.jpg') }}" alt="Sample photo" class="img-fluid7" width="250" height="250"> 
 
                 
                 <div class="overlay">
@@ -335,7 +335,7 @@
 
             <div class="port8"> 
 
-                <img src="{{ asset('frontend/images/1.jpg') }}" alt="Sample photo" class="img-fluid" width="250" height="250"> 
+                <img src="{{ asset('frontend/images/1.jpg') }}" alt="Sample photo" class="img-fluid8" width="250" height="250"> 
 
 
 
@@ -362,7 +362,7 @@
 
             <div class="port9"> 
 
-                <img src="{{ asset('frontend/images/7.jpg') }}" alt="Sample photo" class="img-fluid" width="250" height="250"> 
+                <img src="{{ asset('frontend/images/7.jpg') }}" alt="Sample photo" class="img-fluid9" width="250" height="250"> 
 
 
                 <div class="overlay">
