@@ -141,7 +141,6 @@ color: #111;
 
 /***************************************** QUI SUIS-JE ? ******************************************/
 
-
 /***************************************** MES RÉALISATIONS ******************************************/
 
 
@@ -510,6 +509,11 @@ button
     margin-bottom: 1em;
 }
 
+#bureserv
+{
+    margin-top: 400px;
+    margin-left: -70px;
+}
 
 
 #message 
@@ -718,52 +722,15 @@ button
 /*-------------------------  pour ecran extra large  -------------------------*/
 /* 
 @media (min-width: 1366px){
-	.section-title
-	{ */
-		/*padding: 190px 0px;
-		margin: 0px 90px 0px 140px;*/
-		/* font-size: 90px;
-	}
-	.custom-navbar-default
-	{
-		padding: 18px 0px;
-	}
-	.owl-carousel
-	{
-		margin-top: 94px;
-	}
-}
+
 
 @media (min-width: 1500px) {
-	.section-icon {
-		left: 48%;
-		margin-left: -25px;
-	}
-
-	.section-title {
-		padding: 20% 10% 20% 25%;
-	}
-
-	.section-content {
-		padding: 10% 40% 10% 12%;
-	}
-
-	.bread .section-bg,
-	.beer .section-bg {
-		background-position-x: 62%, 80%;
-		background-size: 330px, 264px;
-	}
-
-
-
-} */
-
 
 
 
 /*------------------------------  pour petit écran (Tablette) -------------------------*/
 
-@media (max-width: 991px) and (min-width: 768px){
+@media (max-width: 1024px) and (min-width: 735px){
 
 
 html 
@@ -813,7 +780,7 @@ body
 }
 
 
-/****************************************** ESPACE CONNEXION *****************************************/
+/********* ESPACE CONNEXION **************************************/
 
 
 a 
@@ -842,7 +809,7 @@ a
 
 
 
-/****************************************** IMAGE PRINCIPALE *******************************************/
+/********** IMAGE PRINCIPALE *******************************************/
 
 
 .imgprin
@@ -856,7 +823,7 @@ a
 
 
 
-/************************************************* NAVBAR **********************************************/
+/*********** NAVBAR **********************************************/
 
 
 
@@ -901,7 +868,7 @@ color: #111;
 }
 
 
-/***************************************** QUI SUIS-JE ? ******************************************/
+/********* QUI SUIS-JE ? ******************************************/
 
 .qsj
 {
@@ -918,7 +885,7 @@ color: #111;
 
 
 
-/***************************************** MES RÉALISATIONS ******************************************/
+/********* MES RÉALISATIONS ******************************************/
 
 
 /* titre et sous-titre */
@@ -1051,7 +1018,7 @@ color: #111;
 
 
 
-/******************************************* LES ATELIERS ******************************************/
+/********** LES ATELIERS ******************************************/
 
 
 .titre3
@@ -1236,7 +1203,7 @@ button
 
 
 
-/*********************************************** CONTACT **********************************************/
+/*********** CONTACT **********************************************/
 
 
 
@@ -1300,7 +1267,7 @@ button
 
   }
 
-/***************************************** RÉSEAUW SOCIAUX ********************************************/
+/*********** RÉSEAUW SOCIAUX ********************************************/
 
 .rs
 {
@@ -1370,13 +1337,34 @@ button
   transition: transform .2s;
 }
 
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1403,149 +1391,712 @@ button
 
 @media (max-width: 767px) 
 {
-	.custom-navbar-default {
-		padding: 15px 0px;
-	}
-
-	.navbar-default .navbar-brand {
-		font-size: 30px;
-	}
-
-	#about
-	{
-		margin-top: 250px;
-	}
 
 
-	.owl-carousel {
-		margin-top: 80px;
-	}
+    html 
+    {
+        background-color: rgb(255, 255, 255);
+        overflow-x : hidden;
+    }
+    
+    
+    body
+    {
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 0px;
+        margin-top: -5px;
+        color: rgb(0, 0, 0);
+    }
+    
+  
+   
+    
+    .top-right 
+    {
+        position: absolute;
+        right: 10px;
+        top: 18px;
+    }
+    
+  
+    
+    
+    /********* ESPACE CONNEXION **************************************/
+    
+    
+    a 
+    {
+        color: #ffffff;
+        padding: 0 25px;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: .1rem;
+        text-transform: uppercase;
+    }
+    
+    
+    
+    #co
+    {
+        color: black;
+        font-size: 10px;
+    }
+    
+    
+    #co:hover 
+    {
+        color: rgb(194, 201, 98);
+    }
+    
+    
+    
+/********** IMAGE PRINCIPALE *******************************************/
+    
+    
+    .imgprin
+  {
+      width: 150%;
+      height: 40%;
+      margin-left: -20px;
+  }
 
-	.owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(1) .item,
-	.owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(2) .item,
-	.owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(3) .item {
-		background-position: center;
-	}
+    
+    
 
-	.owl-theme .owl-controls .owl-buttons .owl-prev {
-		right: 20%;
-	}
-
-	.owl-theme .owl-controls .owl-buttons .owl-next {
-		right: 5%;
-	}
-
-	.header-title {
-		font-size: 45px;
-		margin-bottom: 5px;
-	}
-
-	.header-sub-title {
-		margin-left: 3px;
-	}
-
-	.section-content {
-		padding: 12% 15%;
-	}
-
-	.section-content-title {
-		font-size: 45px;
-	}
-
-	.section-header {
-		padding-top: 0px;
-	}
-
-	.pricing-title {
-		margin-bottom: 15px;
-		font-size: 25px;
-	}
-
-	#filter-list li {
-		font-size: 14px;
-	}
-
-	#menu-pricing .item {
-		width: 40%;
-	}
-
-	#menu-pricing .item h2 {
-		margin: 0px;
-		padding: 0px;
-		font-size: 27px;
-	}
-
-	.menu-price li a:hover .menu-desc span {
-		padding: 0px;
-		line-height: 18px;
-		font-size: 12px;
-	}
-
-	.menu-price li a .menu-desc span h3 {
-		font-size: 19px;
-		margin-bottom: 12px;
-	}
-
-	.section-title {
-		font-size: 40px;
-  		padding: 18% 10%;
-	}
-
-	.contact .section-title {
-		padding: 10% 20% 20% 20%;
-	}
-
-	.menu {
-		text-align: center;
-	}
-
-	.half {
-		width: 100%;
-	}
-
-	.per-head, .price {
-		float: none;
-	}
-
-	.opening-time {
-		margin-top: 25px;
-	}
-
-	.contact .section-content {
-		padding: 70px 0px;
-	}
-
-	.g-map img {
-		height: 137px;
-	}
-
-	.btn-reservation {
-		padding: 10px;
-	}
-
-	.parte{
-		font-size: 20px;
-		margin-left: 10px;
-	}
-
-	.partes{
-		font-size: 20px;
-		margin-left: -15px;
-	}
-
-	#bw 
-	{
-		margin-left: -40px;
-		font-size: 14px;
-	}
-	
-/* taille des produits */
-	#itemm
-	{
-		margin-top: -170px;
-	}
+/*********** NAVBAR **********************************************/
 
 
 
+/* ul 
+{
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  top: 0;
+  margin-top: 300px;
+} */
+
+
+/* li 
+{
+  float: left;
+  margin-left: 28px;
+  margin-top: 20px;
+} */
+
+
+li a:hover
+{
+    background-color: #555;
+    color: white;
+} 
+
+
+ul {
+    list-style-type: none;
+    margin-top: 250px;
+    padding: 0;
+    margin: 0;
+  }
+  
+
+li a {
+    display: block;
+    width: 100px;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    border: black;
+  }
+
+
+
+
+
+a:hover 
+{
+color: #111;
+background-color:black;
 
 }
+
+.lien{
+    margin-right: -10px;
+    font-size: 12px;
+
+}
+    
+    
+
+
+    /********* QUI SUIS-JE ? ******************************************/
+    
+    .qsj
+    {
+        font-size: 35px;
+    }
+    
+    
+    
+    .txtqsj
+    {
+        width: 110%;
+        margin-left: -15px;
+    }
+    
+    
+    
+    /********* MES RÉALISATIONS ******************************************/
+    
+    
+    /* titre et sous-titre */
+    
+    .titre2
+    {
+        color:rgb(0, 0, 0);
+        font-size: 35px;
+        margin-top: 150px;
+    
+    }
+    
+    .soustitre2
+    {
+        color:rgb(0, 0, 0);
+        margin-bottom: 70px;
+        font-size: 10px;
+    
+    }
+    
+    
+    .textréal
+    {
+        display: none;
+    }
+    
+    
+    /* images */
+    
+    
+    /* effet HOVER image */
+    
+    
+    .overlay 
+    {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        /* background-color: rgb(209, 69, 4); */
+        background-color: rgb(87, 109, 26);
+    }
+    
+    
+    
+    .text 
+    {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+    
+
+
+    
+    .img-fluid1
+    {
+        width: 250%;
+        height: 250%;
+        margin-left: 0px;
+    }
+    
+    
+    .img-fluid2
+    {
+        width: 250%;
+        height: 250%;
+        margin-left: -408px;
+        margin-top: 230px;
+    
+    }
+    
+    
+    .img-fluid3
+    {
+        width: 250%;
+        height: 250%;
+        margin-left: -938px;
+        margin-top: 220px;
+    
+    }
+    
+    
+    .img-fluid4
+    {
+        width: 250%;
+        height: 250%;
+        margin-left: 0px;
+        margin-top: 5px;
+    
+    }
+    
+    
+    .img-fluid5
+    {
+        width: 250%;
+        height: 250%;
+        margin-left: -408px;
+        margin-top: 250px;
+    
+    }
+    
+    
+    .img-fluid6
+    {
+        width: 250%;
+        height: 250%;
+        margin-left: -938px;
+        margin-top: 230px;
+    }
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+    
+    /********** LES ATELIERS ******************************************/
+    
+    
+    .titre3
+    {
+        margin-top: 30px
+    }
+    
+    .textréal2
+    {
+        margin-bottom: -10px;
+        width: 100%;
+    
+    }
+    
+
+    .img-fluid7
+    {
+        width: 200%;
+        height: 200%;
+        margin-left: 50px;
+        margin-top: 5px;
+    
+    }
+    
+    
+    .img-fluid8
+    {
+        width: 200%;
+        height: 200%;
+        margin-left: -377px;
+        margin-top: 480px;
+    }
+    
+    
+    
+    .img-fluid9
+    {
+        width: 200%;
+        height: 200%;
+        margin-left: -953px;
+        margin-top: 500px;
+    
+    }
+    
+    
+    
+    /* texte de chaque atelier */
+    
+    
+    .titreat1
+    {
+        margin-left: 0px;
+    
+    }
+
+    
+    .titreat3
+    {
+        margin-left: 0px;
+    }
+    
+    
+    
+    
+    .txtaqua
+    {
+        margin-left: 90px;
+        width: 50%;
+        font-size: 13px;
+    
+    }
+    
+    .txtacri
+    {
+        margin-left: 90px;
+        width: 50%;
+        font-size: 13px;
+    
+    }
+    
+    .txtpor
+    {
+        margin-left: 90px;
+        width: 50%;
+        font-size: 13px;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* FORMULAIRE D'INSCRIPTION ATELIER */
+    
+    
+    #formcont1
+    {
+        margin-top: 150px;
+        margin-left: 100px;
+    }
+    
+    
+    .contact-form
+    {
+        margin-left: 30px;
+        margin-bottom: 100px;
+        display: flex;
+    
+    }
+    
+    
+    .form-control
+    {
+        border-style: solid;
+        margin-bottom: 10px;
+    }
+    
+    
+    
+    .atelier
+    {
+        width: 100%;
+        border-style: solid;
+    
+    }
+    
+    
+    
+    .container
+    {
+        /* background-color: rgb(209, 69, 4); */
+        background-color: rgb(87, 109, 26);
+        padding-right: 100px;
+        padding-top: 50px;
+        padding-bottom: -60px;
+        margin-bottom: 50px;
+        border-radius: 2%;
+    }
+    
+    
+    
+    
+    button
+    {
+        background: gray;
+        color: white;
+        border: 0;
+        padding: 1em;
+        margin-bottom: 1em;
+        margin-top: 150px;
+    }
+    
+    
+    
+    #message 
+    {
+        display: flex;
+        flex-direction: column;
+        order: 2;
+        margin-top: 0px;
+        margin-left: 30px;
+        width: 120%;
+    
+    }
+    
+    
+    
+    #message > textarea
+    {
+        flex: 1; 
+        min-width: 18em;
+    }
+    
+    
+    
+    .msg
+    {
+        margin-left: 30px;
+    }
+    
+    #ttmsg
+    {
+        margin-left: -260px;
+        margin-top: 230px ;
+    }
+    
+    
+    
+    /*********** CONTACT **********************************************/
+    
+    
+    
+    .évé1
+    {
+        background-color: rgb(43, 48, 38);
+        padding-bottom: 100px;
+        padding-top: 50px;
+    }
+    
+    
+    
+    #formcont
+    {
+        margin-left: 100px;
+        padding-bottom: 50px;
+    }
+    
+    .container1
+    {
+        margin-left: -15px;
+    }
+    
+    
+    #submit1
+    {
+        margin-top: 50px;
+        border-radius: 0px;
+    
+    }
+    
+    
+    
+    .form-control1
+    {
+        width: 120%;
+        border-style: solid;
+        margin-bottom: 10px;
+    
+    } 
+    
+    
+    
+    .label
+    {
+        color: whitesmoke;
+    }
+    
+    
+    #formcont
+    {
+        color: blanchedalmond;
+    }
+    
+    
+    
+    
+    .btnsend:hover{
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        background-color: #3e8e41;
+    
+      }
+    
+
+
+
+
+
+
+    /*********** RÉSEAUW SOCIAUX ********************************************/
+    
+    .rs
+    {
+    
+        margin-top: -50px;
+        margin-bottom: 80px;
+        margin-right: 0px;
+        margin-left: 100px;
+    }
+    
+    
+    
+    #ic1
+    {
+        margin-bottom: 25px;
+        margin-right: 0px;
+        margin-left: 150px;
+    }
+    
+    
+    #ic2
+    {
+        margin-top: -110px;
+        margin-bottom: 45px;
+        margin-left: 250px;
+    
+    }
+    
+    
+    #ic3
+    {
+        margin-top: -100px;
+        margin-bottom: 70px;
+        margin-left: 350px;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    #ic1:hover 
+    {
+      -ms-transform: scale(1.5); /* IE 9 */
+      -webkit-transform: scale(1.5); /* Safari 3-8 */
+      transform: scale(1.5); 
+      transition: transform .2s;
+    }
+    
+    
+    #ic2:hover 
+    {
+      -ms-transform: scale(1.5); /* IE 9 */
+      -webkit-transform: scale(1.5); /* Safari 3-8 */
+      transform: scale(1.5); 
+      transition: transform .2s;
+    }
+    
+    
+    #ic3:hover 
+    {
+      -ms-transform: scale(1.5); /* IE 9 */
+      -webkit-transform: scale(1.5); /* Safari 3-8 */
+      transform: scale(1.5); 
+      transition: transform .2s;
+    }
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    /*********** MENU HAMBURGER **********************************************/
+/*     
+#hamburger, #hamburger-content{
+    display: inline;
+}
+
+#hamburger-button{
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding:0;
+    vertical-align: top;
+    line-height: 47px;
+    float: right;
+    margin-right: 32px;
+}
+
+    
+#hamburger-overlay{
+    display: none;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+#hamburger-sidebar{
+    display: none;
+    position: fixed;
+    z-index: 20;
+    width: 84%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(190, 145, 145);
+
+    /* animation sidebar vers la gauche */
+    /* transform: translateX(-100%);
+    transition: transform .2s ease-out;
+
+}
+
+#hamburger-sidebar li {
+    display: block;
+}
+
+
+#hamburger-sidebar-header{
+    background-color: rgb(5, 104, 54);
+}
+
+#hamburger-sidebar-body{
+
+    padding: 16px 8px;
+}
+
+
+#hamburger-content{
+    display: none;
+}
+
+
+
+#hamburger-button, #hamburger-sidebar{
+    display: block;
+}  */
+
+
+

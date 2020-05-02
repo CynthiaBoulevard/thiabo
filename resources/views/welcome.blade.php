@@ -27,14 +27,13 @@
 
 
 
+
     <body>
 
 <!----------------------------------------- Section connexion ---------------------------------------->
-  
+ 
 
-
-
-        <div class="flex-center position-ref full-height">
+<div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -59,7 +58,9 @@
             <img src="{{ asset('frontend/images/5.jpg') }}" alt="pain" class="imgprin" id="imgprin" height="550px" width="887px" > 
 
         </div>
- 
+ <div id="back">
+
+ </div>
 
         <ul>
             <li><a class="lien" href="#quisuis-je"> Qui suis-je ? </a></li>
@@ -69,7 +70,7 @@
         </ul>
 
 
-
+ 
 
 <!------------------------------------------ QUI SUIS-JE------------------------------------------------>
 
@@ -454,16 +455,19 @@
                             <br>
                             
 
-                            <div class="text-center">
-                                <button type="submit" id="submit" name="submit" class="btnsend">Envoyer </button>
-                            </div>
-
+                            
 
                         </div>
-                            <div class="col-md-6 col-sm-6">
+                            <div class="col-md-6 col-sm-6" id="ttmsg">
                             <label class="msg">Message</label>
 
                                 <textarea name="message" type="text" class="form-control" id="message" rows="18" required="required" placeholder="  message*"></textarea>
+                            </div>
+
+
+
+                            <div class="text-center" id="bureserv">
+                                <button type="submit" id="submit" name="submit" class="btnsend">Envoyer </button>
                             </div>
 
                 </form>
@@ -541,7 +545,7 @@
 
 
 
-            <div class="text-center">
+            <div class="text-center" >
             <button type="submit" id="submit1" name="submit" class="btnsend">Envoyer </button>
             </div>
 
@@ -623,7 +627,7 @@
 @endif
 
 
-
+<script type="text/javascript"  src="js/style.js"></script>
 <script src="jquery.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
