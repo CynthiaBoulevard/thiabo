@@ -445,6 +445,19 @@ color: #111;
 /* FORMULAIRE D'INSCRIPTION ATELIER */
 
 
+
+  
+.form-control2
+{
+    width: 180%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+} 
+
+
+
+
 #formcont1
 {
     margin-top: 150px;
@@ -1778,7 +1791,15 @@ background-color:black;
     
     /* FORMULAIRE D'INSCRIPTION ATELIER */
     
+
     
+        
+    
+
+
+
+
+
     #formcont1
     {
         margin-top: 150px;
@@ -1883,7 +1904,11 @@ background-color:black;
         padding-top: 50px;
     }
     
-    
+    #formcont1
+    {
+        color: black;
+        margin-left: 50px;
+    }
     
     #formcont
     {
@@ -1904,6 +1929,14 @@ background-color:black;
     
     }
     
+     
+    .form-control2
+    {
+        width: 100%;
+        border-style: solid;
+        border-color: rgb(87, 109, 26);
+    } 
+
     
     
     .form-control1

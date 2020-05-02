@@ -399,7 +399,7 @@
 <!---------------------------------- FORMULAIRE D'INSCRIPTION ATELIER --------------------------------->
 
 
-
+<!-- 
 <h2 class="formcont" id="formcont1"> Inscrivez-vous ! </h2>
 
 
@@ -476,6 +476,7 @@
     </div>
 
 </section>
+ -->
 
 
 
@@ -485,6 +486,85 @@
 
 
 
+<div class="évé11" id="évé11">
+
+
+
+    <h2 class="formcont" id="formcont1"> Inscrivez-vous ! </h2>
+
+
+
+
+
+    <section class="contact-form" id="forme">
+    <div class="container1">
+    <div class="row">
+
+    <form class="contact-form" method="post" action="{{ route('reservation.send') }}">
+        @csrf
+
+
+        <div class="col-md-6 col-sm-6">
+                
+
+            <label >Nom</label>
+            <div class="name">
+                <input  name="name" type="text" class="form-control2" id="name" required="required" 
+                placeholder=" nom*">
+            </div>
+
+
+
+
+            <label >Ateliers</label>
+            <div class="atelier">
+
+            <select name="firstname" class="form-control2" id="atelier" required="required" >
+            <option value="Aquarelle">Aquarelle</option>
+            <option value="Acrylique">Acrylique</option>
+            <option value="Portrait">Portrait</option>
+            </select>
+
+            </div>
+
+
+
+            <label class="label">E-mail</label>
+            <div class="email">
+                <input name="email" type="email" class="form-control2" id="email" required="required" 
+                placeholder=" mail*">
+            </div>
+
+
+
+            <label>Téléphone</label>
+            <div class="phone">
+                <input name="phone" type="phone" class="form-control2" id="phone" required="required" placeholder=" tel*">
+            </div>
+
+
+
+            <label >Message</label>
+
+            <textarea name="message" type="text" class="form-control2" id="message1" rows="23" required="required" 
+            placeholder="  message*"></textarea>
+
+
+
+
+            <div class="text-center" >
+            <button type="submit" id="submit1" name="submit" class="btnsend">Envoyer </button>
+            </div>
+
+
+        </div>
+        
+            
+        </form>
+
+    </div>
+    </div>
+    </section>
 
 <!------------------------------------ FORMULAIRE DE CONTACT  ----------------------------------------->
 
