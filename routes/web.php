@@ -13,14 +13,28 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('', 'WelcomeController@index')->name('welcome.index');
+
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('admin', 'HomeController@admin')->middleware('admin');
+
+
+// crud products (ateliers)
+
+Route::resource('admin/products','ProductController', ['middleware' => 'admin']);
+
+
+Route::get('products',['middleware' => 'auth', function () {
+    return view('admin/admin');
+}]);
+
 
 
 // formulaire de reservtaion page accueil
@@ -57,6 +71,6 @@ Route::get('user',['middleware' => 'auth', function () {
 
 
 // route Accueil
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });

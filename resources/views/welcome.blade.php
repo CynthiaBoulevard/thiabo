@@ -273,131 +273,59 @@
                         
   
 
+
+<!-------------------------------------------- Atelier ------------------------------------------------>
+
+
+<blockquote class="content" id="ate">
+
+<br>
+<br>
+
+<h1 class="titre3"> Nos ateliers </h1>
+
+
+<p class="textréal2"> Nous organisons tout au long de l'année des ateliers. Il y a 3 types <br>
+d'ateliers auxquelles vous pouvez vous inscrires chaques mois: <br>
+atelier aquarelle, atelier acrylique, atelier portrait. <br>
+Des ateliers disponibles à partir de 16 ans et plus. <br>
+</p>
+
 </blockquote>
 
 
 
-
-
-
-<!--****************************************** LES ATELIERS ******************************************-->
-
-
-    <blockquote class="content" id="ate">
-
-    <br>
-    <br>
-
-    <h1 class="titre3"> Nos ateliers </h1>
-
-
-    <p class="textréal2"> Nous organisons tout au long de l'année des ateliers. Il y a 3 types <br>
-        d'ateliers auxquelles vous pouvez vous inscrires chaques mois:  <br>
-        atelier aquarelle, atelier acrylique, atelier portrait. <br>
-        Des ateliers disponibles à partir de 16 ans et plus. <br>
-        
-    </p>
-
-    </blockquote>
-
-
-
-<!-- PHOTOS -->
 <div class="content">
-    <div class="row text-center">
+<div class="row text-center">
+<div class="col-sm-4">
+
+@foreach($lies as $image)
+  <div class="port7">
 
 
-    
-        <div class="col-sm-4">
+     <img src="{{ asset('frontend/images/6.jpg') }}" alt="Sample photo" class="img-fluid7" width="250" height="250">
 
-            <div class="port7"> 
-
-                <img src="{{ asset('frontend/images/6.jpg') }}" alt="Sample photo" class="img-fluid7" width="250" height="250"> 
-
-                
-                <div class="overlay">
-                        <div class="text">Aquarelle <br> 
-                                            90€</div>
-                    </div>
-
-
-            </div>
-
-            <h4 class="titreat1"> l'atelier Aquarelle </h4>
-
-<p class="txtaqua">Amateur de douceur ? Alors venez participer à notre atelier aquarelle. 3h durant lequels vous pourrez 
-    découvrir ou redécouvrir à la manipuler. (Tout le matèriel est compris dans le tarif) 
-</p>
-
-
-
-        </div>
-
-
-
-
-        <div class="col-sm-4">
-
-            <div class="port8"> 
-
-                <img src="{{ asset('frontend/images/1.jpg') }}" alt="Sample photo" class="img-fluid8" width="250" height="250"> 
-
-
-
-                <div class="overlay">
-                <div class="text">Acrylique <br> 
-                                    150€</div>
-                    </div>
-
-            </div>
-
-
-            <h4 class="titreat2"> l'atelier Acrylique</h4>
-
-<p class="txtacri">Vous préférez peut-être plus de matière? L'atelier acrylique c'est ce qu'il vous faut. 3h durant lequels vous pourrez 
-    apprendre à manipuler à votre guise. (Tout le matèriel est compris dans le tarif)
-</p>
-
-        </div>
-
-
-
-
-        <div class="col-sm-4">
-
-            <div class="port9"> 
-
-                <img src="{{ asset('frontend/images/7.jpg') }}" alt="Sample photo" class="img-fluid9" width="250" height="250"> 
-
-
-                <div class="overlay">
-                <div class="text">Portrait<br> 
-                                            70€</div>
-                    </div>
-
-
-            </div>
-
-            <h4 class="titreat3"> l'atelier Portrait </h4>
-
-<p class="txtpor">Ou alors vous préférez tout simplement prendre un crayon et déssiner les courbes du visage ? C'est cette atelier qu'il vous faut.
-    Durant 3h je vous apprendrez à manier votre crayon. (Tout le matèriel est compris dans le tarif) 
-</p>
-
-        </div>
+       <div class="overlay">
+    <div class="text">{{ $image->titre }} <br>
+        {{ $image->prix }}</div>
+    </div>
 
 
     </div>
+
+
+<p class="txtaqua"> {{ $image->detail }}
+</p>
+@endforeach
+
+
+</div>
+</div>
 </div>
 
 
 
 
-
-
-
-
-<!---------------------------------- FORMULAIRE D'INSCRIPTION ATELIER --------------------------------->
 
 
 <!-- 
@@ -478,6 +406,14 @@
 
 </section>
  -->
+
+
+
+
+
+
+
+
 
 
 
@@ -720,4 +656,5 @@
 @toastr_render
 
     </body>
+
 </html>

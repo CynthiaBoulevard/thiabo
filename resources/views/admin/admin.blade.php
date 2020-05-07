@@ -48,6 +48,11 @@
 
   
 
+    <li class="nav-item">
+    <a class="nav-link" href="{{ route('products.index') }}">ATELIERS</a>
+    </li>
+
+
 
     <li class="nav-item">
     <a class="nav-link" href="{{ route('reservation.index') }}">INSCRIPTIONS ATELIERS</a>
