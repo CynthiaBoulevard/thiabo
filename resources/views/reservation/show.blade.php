@@ -37,7 +37,7 @@
                 <strong>Nom:</strong>
 
                
-                <td>{{ $reservation->name ?? ''}}</td>
+                <td>{{ $reservations->name }}</td>
 
             </div>
 
@@ -49,7 +49,7 @@
 
                 <strong>Atelier:</strong>
 
-                <p>  {{ $reservation->firstname ?? '' }} </p>
+                <p>  {{ $reservations->firstname }} </p>
 
 
             </div>
@@ -62,7 +62,7 @@
 
                 <strong>E-mail:</strong>
 
-                <p>  {{ $reservation->email ?? '' }} </p>
+                <p>  {{ $reservations->email }} </p>
 
 
             </div>
@@ -76,7 +76,7 @@
 
                 <strong>Téléphone:</strong>
 
-                <p>  {{ $reservation->phone ?? '' }} </p>
+                <p>  {{ $reservations->phone }} </p>
 
 
             </div>
@@ -90,7 +90,7 @@
 
                 <strong> Message:</strong>
 
-              <p>  {{ $reservation->message ?? '' }} </p>
+              <p>  {{ $reservations->message }} </p>
 
               
 

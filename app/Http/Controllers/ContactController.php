@@ -44,13 +44,6 @@ class ContactController extends Controller
         $contacts = Contact::latest()->paginate(5);
         return view('contact.index',compact('contacts'))
         ->with('i', (request()->input('page', 1) - 1) * 5);
-
-    
-        
-
-
-
-
     }
 
     /**
@@ -82,6 +75,7 @@ class ContactController extends Controller
      */
     public function show($id)
     {
+        $contacts = Contact::find($id);
         return view('contact.show',compact('contacts'));
     }
 

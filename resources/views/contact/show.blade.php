@@ -39,7 +39,7 @@
                 <strong>Nom:</strong>
 
 
-                <p>  {{ $contact->name?? '' }} </p>
+                <p>  {{ $contacts->name }} </p>
 
 
             </div>
@@ -52,7 +52,7 @@
 
                 <strong>date:</strong>
 
-                <p>  {{ $contact->date ?? '' }} </p>
+                <p>  {{ $contacts->date }} </p>
 
             </div>
 
@@ -64,7 +64,7 @@
 
                 <strong>E-mail:</strong>
 
-                <p>  {{ $contact->email ?? '' }} </p>
+                <p>  {{ $contacts->email }} </p>
 
             </div>
 
@@ -80,7 +80,7 @@
 
                 <strong> Message:</strong>
 
-                <p>  {{ $contact->message ?? '' }} </p>
+                <p>  {{ $contacts->message }} </p>
 
             </div>
 

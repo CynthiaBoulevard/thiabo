@@ -77,6 +77,7 @@ class ReservationController extends Controller
      */
     public function show($id)
     {
+        $reservations = Reservation::find($id);
         return view('reservation.show',compact('reservations'));
     }
 
