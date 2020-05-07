@@ -53,6 +53,8 @@
 
 
 
+
+
 <!-------------------------------------- IMG PRINCIPAL + NAVBAR---------------------------------------->
         <div class="content">
 
@@ -72,6 +74,11 @@
 
 
  
+
+
+
+
+
 
 <!------------------------------------------ QUI SUIS-JE------------------------------------------------>
 
@@ -274,6 +281,9 @@
   
 
 
+
+
+
 <!-------------------------------------------- Atelier ------------------------------------------------>
 
 
@@ -295,117 +305,59 @@ Des ateliers disponibles à partir de 16 ans et plus. <br>
 
 
 
-<div class="content">
-<div class="row text-center">
-<div class="col-sm-4">
-
-@foreach($lies as $image)
-  <div class="port7">
 
 
-     <img src="{{ asset('frontend/images/6.jpg') }}" alt="Sample photo" class="img-fluid7" width="250" height="250">
-
-       <div class="overlay">
-    <div class="text">{{ $image->titre }} <br>
-        {{ $image->prix }}</div>
-    </div>
 
 
-    </div>
 
 
-<p class="txtaqua"> {{ $image->detail }}
-</p>
-@endforeach
 
+
+
+
+<div class="row backgrounding" id="box">
+<div class="container2" id="contenu">
+
+
+
+
+  
+
+    <div class="row">
+    <div class='list-group gallery'>
+
+        @foreach($lies as $image)
+
+
+
+
+            <img src="{{ asset('frontend/images/1.jpg') }}" class="img-responsive" alt=""  width="230" height="230">
+
+
+           
+
+
+                        <div class='text-center'>
+
+                            <h2 class='text-muted'>{{ $image->titre }}</h2>
+                  
+                            <h5 class='text-muted'>{{ $image->date }} </h5> 
+
+                            <h5 class='text-muted'>{{ $image->prix }}€ </h5>
+
+                            <p class='text-muted'>{{ $image->detail }} </p>
+
+                        </div> <!-- text-center / end -->
+                
+        
+                @endforeach
+        
+
+        </div> <!-- list-group / end -->
+    </div> <!-- row / end -->
 
 </div>
 </div>
-</div>
-
-
-
-
-
-
-<!-- 
-<h2 class="formcont" id="formcont1"> Inscrivez-vous ! </h2>
-
-
-
-<section class="contact-form" >
-
-    <div class="container">
-        <div class="row">
-            
-                <form class="contact-form" method="post" action="{{ route('reservation.send') }}">
-                        @csrf
-
-
-                        <div class="col-md-6 col-sm-6">
-                              
-
-                            <label>Nom</label>
-                            <div class="name">
-                                <input  name="name" type="text" class="form-control" id="name" required="required" placeholder=" nom*">
-                            </div>
-
-
-
-                            <label>Ateliers</label>
-                            <div class="atelier">
-
-                            <select name="firstname" class="atelier" id="atelier" required="required" >
-                            <option value="Aquarelle">Aquarelle</option>
-                            <option value="Acrylique">Acrylique</option>
-                            <option value="Portrait">Portrait</option>
-                            </select>
-
-                            </div>
-
-
-
-                            <label>E-mail</label>
-                            <div class="email">
-                                <input name="email" type="email" class="form-control" id="email" required="required" placeholder=" mail*">
-                            </div>
-
-
-
-                            <label>Téléphone</label>
-                            <div class="phone">
-                                <input name="phone" type="phone" class="form-control" id="phone" required="required" placeholder=" tel*">
-                            </div>
-
-
-
-
-                            <br>
-                            <br>
-                            
-
-                            
-
-                        </div>
-                            <div class="col-md-6 col-sm-6" id="ttmsg">
-                            <label class="msg">Message</label>
-
-                                <textarea name="message" type="text" class="form-control" id="message" rows="18" required="required" placeholder="  message*"></textarea>
-                            </div>
-
-
-
-                            <div class="text-center" id="bureserv">
-                                <button type="submit" id="submit" name="submit" class="btnsend">Envoyer </button>
-                            </div>
-
-                </form>
-                </div>
-     
-    </div>
-
-</section>
- -->
 
 
 
@@ -420,6 +372,28 @@ Des ateliers disponibles à partir de 16 ans et plus. <br>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------------------------------ FORMULAIRE D'INSCRIPTION  -------------------------------------->
 
 
 
@@ -502,6 +476,15 @@ Des ateliers disponibles à partir de 16 ans et plus. <br>
     </div>
     </div>
     </section>
+
+
+
+
+
+
+
+    
+
 
 <!------------------------------------ FORMULAIRE DE CONTACT  ----------------------------------------->
 
