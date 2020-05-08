@@ -638,6 +638,7 @@ a
 /*------------------------------  pour petit écran (Tablette) -------------------------*/
 
 @media (max-width: 1024px) and (min-width: 735px){
+    
 
 
 html 
@@ -646,7 +647,6 @@ html
     padding-right:-50px ;
     color: #000000;
     font-weight: 200;
-    /* overflow-x : hidden; */
 
 }
 
@@ -659,6 +659,7 @@ body
     margin-bottom: 0px;
     margin-top: -5px;
     color: rgb(0, 0, 0);
+    overflow-x: hidden;
 }
 
 .flex-center 
@@ -720,7 +721,6 @@ a
 
 .imgprin
 {
-    margin-top: 40px;
     width: 100%;
     height: auto;
 
@@ -932,185 +932,76 @@ color: #111;
     margin-top: 30px
 }
 
+
+
 .textréal2
 {
     margin-bottom: -10px;
 
 }
 
-.img-fluid7
-{
-    width: 95%;
-    height: 95%;
-    margin-left: 0px;
-    margin-top: 65px;
 
+.évé11
+{
+    padding-bottom: 100px;
+    padding-top: 50px;
 }
 
 
-.img-fluid8
+#submit1
 {
-    width: 95%;
-    height: 95%;
-    margin-left: -205px;
-    margin-top: 13px;
+    background: gray;
+    color: white;
+    border: 0;
+    padding: 1em;
+    margin-bottom: 5em;
+    margin-top: 50px;
+    border-radius: 0px;
 }
-
-
-
-.img-fluid9
-{
-    width: 95%;
-    height: 95%;
-    margin-left: -402px;
-    margin-top: 13px;
-
-}
-
-
-
-/* texte de chaque atelier */
-
-
-.titreat1
-{
-    margin-left: -380px;
-
-}
-
-.titreat3
-{
-    margin-left: 365px;
-}
-
-
-
-
-.txtaqua
-{
-    margin-left: 20px;
-    width: 25%;
-    font-size: 13px;
-
-}
-
-.txtacri
-{
-    margin-left: 215px;
-    width: 25%;
-    font-size: 13px;
-
-}
-
-.txtpor
-{
-    margin-left: 420px;
-    width: 25%;
-    font-size: 13px;
-
-}
-
-
-
-
-
-
-
 
 
 /* FORMULAIRE D'INSCRIPTION ATELIER */
 
 
-#formcont1
+/* #formcont1
 {
     margin-top: 150px;
     margin-left: 220px;
-}
+} */
 
-
+/* 
 .contact-form
 {
     margin-left: 30px;
     margin-bottom: 100px;
     display: flex;
 
-}
+} */
 
 
-.form-control
+/* .form-control
 {
     border-style: solid;
     margin-bottom: 10px;
-}
-
-
-
-.atelier
-{
-    width: 100%;
-    border-style: solid;
-
-}
-
-
-
-.container
-{
-    /* background-color: rgb(209, 69, 4); */
-    background-color: rgb(87, 109, 26);
-    padding-right: 100px;
-    padding-top: 50px;
-    padding-bottom: -60px;
-    margin-bottom: 50px;
-    border-radius: 2%;
-}
+} */
 
 
 
 
-button
-{
-    background: gray;
-    color: white;
-    border: 0;
-    padding: 1em;
-    margin-bottom: 1em;
-}
 
 
 
-#message 
-{
-    display: flex;
-    flex-direction: column;
-    order: 2;
-    margin-top: 0px;
-    margin-left: 30px;
-    width: 120%;
-
-}
 
 
 
-#message > textarea
-{
-    flex: 1; 
-    min-width: 18em;
-}
 
 
-
-.msg
-{
-    margin-left: 30px;
-}
 
 
 
 
 
 /*********** CONTACT **********************************************/
-
 
 
 .évé1
@@ -1124,96 +1015,39 @@ button
 
 #formcont
 {
-    margin-left: 150px;
     padding-bottom: 50px;
-}
-
-.container1
-{
-    margin-left: 30px;
-}
-
-
-#submit1
-{
-    margin-top: 50px;
-    border-radius: 0px;
-
 }
 
 
 
 .form-control1
 {
-    width: 180%;
     border-style: solid;
     margin-bottom: 10px;
-
 } 
 
 
 
-.label
+.btnsend:hover
 {
-    color: whitesmoke;
-}
-
-
-#formcont
-{
-    color: blanchedalmond;
-}
-
-
-
-
-.btnsend:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     background-color: #3e8e41;
+}
 
-  }
+
+
+
+
 
 /*********** RÉSEAUW SOCIAUX ********************************************/
 
 .rs
 {
 
-    margin-top: -50px;
+    margin-top: 20px;
     margin-bottom: 80px;
     margin-right: 0px;
-    margin-left: 100px;
 }
-
-
-
-#ic1
-{
-    margin-bottom: 25px;
-    margin-right: 0px;
-    margin-left: 150px;
-}
-
-
-#ic2
-{
-    margin-top: -110px;
-    margin-bottom: 45px;
-    margin-left: 250px;
-
-}
-
-
-#ic3
-{
-    margin-top: -100px;
-    margin-bottom: 70px;
-    margin-left: 350px;
-    
-}
-
-
-
-
 
 
 
@@ -1313,6 +1147,8 @@ button
         margin-bottom: 0px;
         margin-top: -5px;
         color: rgb(0, 0, 0);
+        overflow-x: hidden;
+
     }
     
   
@@ -1601,80 +1437,6 @@ background-color:black;
     }
     
 
-    .img-fluid7
-    {
-        width: 200%;
-        height: 200%;
-        margin-left: 50px;
-        margin-top: 5px;
-    
-    }
-    
-    
-    .img-fluid8
-    {
-        width: 200%;
-        height: 200%;
-        margin-left: -377px;
-        margin-top: 480px;
-    }
-    
-    
-    
-    .img-fluid9
-    {
-        width: 200%;
-        height: 200%;
-        margin-left: -953px;
-        margin-top: 500px;
-    
-    }
-    
-    
-    
-    /* texte de chaque atelier */
-    
-    
-    .titreat1
-    {
-        margin-left: 0px;
-    
-    }
-
-    
-    .titreat3
-    {
-        margin-left: 0px;
-    }
-    
-    
-    
-    
-    .txtaqua
-    {
-        margin-left: 90px;
-        width: 50%;
-        font-size: 13px;
-    
-    }
-    
-    .txtacri
-    {
-        margin-left: 90px;
-        width: 50%;
-        font-size: 13px;
-    
-    }
-    
-    .txtpor
-    {
-        margin-left: 90px;
-        width: 50%;
-        font-size: 13px;
-    
-    }
-    
-    
     
     
     
@@ -1687,7 +1449,11 @@ background-color:black;
 
     
         
-    
+    .évé11
+    {
+        padding-bottom: 100px;
+        padding-top: 50px;
+    }
 
 
 
