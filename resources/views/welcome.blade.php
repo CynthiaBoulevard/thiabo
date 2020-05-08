@@ -34,31 +34,13 @@
 <!----------------------------------------- Section connexion ---------------------------------------->
  
 
-<div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}" id="co">Espace perso</a>
-                    @else
-                        <a href="{{ route('login') }}" id="co">Connexion</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" id="co" >Inscription</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-        </div>
-
-
-
 
 
 
 <!-------------------------------------- IMG PRINCIPAL + NAVBAR---------------------------------------->
         <div class="content">
 
-            <img src="{{ asset('frontend/images/5.jpg') }}" alt="pain" class="imgprin" id="imgprin" height="550px" width="887px" > 
+            <img src="{{ asset('frontend/images/5.jpg') }}" alt="pain" class="imgprin" id="imgprin" height="595px" width="887px" > 
 
         </div>
  <div id="back">
@@ -308,87 +290,37 @@ Des ateliers disponibles à partir de 16 ans et plus. <br>
 
 
 
-
-
-
-
-
-
-
 <div class="row backgrounding" id="box">
 <div class="container2" id="contenu">
 
 
-
-
-  
-
     <div class="row">
-    <div class='list-group gallery'>
+        <div class='list-group gallery'>
 
-        @foreach($lies as $image)
+            @foreach($lies as $image)
 
+                <img src="{{ asset('frontend/images/1.jpg') }}" class="img-responsive" alt=""  width="230" height="230">
 
+                            <div class='text-center'>
 
+                                <h2 class='text-muted'>{{ $image->titre }}</h2>
+                    
+                                <h5 class='text-muted'>{{ $image->date }} </h5> 
 
-            <img src="{{ asset('frontend/images/1.jpg') }}" class="img-responsive" alt=""  width="230" height="230">
+                                <h5 class='text-muted'>{{ $image->prix }}€ </h5>
 
+                                <p class='text-muted'>{{ $image->detail }} </p>
 
-           
-
-
-                        <div class='text-center'>
-
-                            <h2 class='text-muted'>{{ $image->titre }}</h2>
-                  
-                            <h5 class='text-muted'>{{ $image->date }} </h5> 
-
-                            <h5 class='text-muted'>{{ $image->prix }}€ </h5>
-
-                            <p class='text-muted'>{{ $image->detail }} </p>
-
-                        </div> <!-- text-center / end -->
-                
-        
-                @endforeach
-        
+                            </div> <!-- text-center / end -->
+                    
+            @endforeach
+            
 
         </div> <!-- list-group / end -->
     </div> <!-- row / end -->
 
 </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -418,16 +350,14 @@ Des ateliers disponibles à partir de 16 ans et plus. <br>
         <div class="col-md-6 col-sm-6">
                 
 
-            <label >Nom</label>
-            <div class="name">
+            <div class="name" id="nameatelier">
                 <input  name="name" type="text" class="form-control2" id="name" required="required" 
-                placeholder=" nom*">
+                placeholder=" Nom*">
             </div>
 
 
 
 
-            <label >Ateliers</label>
             <div class="atelier">
 
             <select name="firstname" class="form-control2" id="atelier" required="required" >
@@ -440,25 +370,24 @@ Des ateliers disponibles à partir de 16 ans et plus. <br>
 
 
 
-            <label class="label">E-mail</label>
             <div class="email">
                 <input name="email" type="email" class="form-control2" id="email" required="required" 
-                placeholder=" mail*">
+                placeholder=" E-mail*">
             </div>
 
 
 
-            <label>Téléphone</label>
             <div class="phone">
-                <input name="phone" type="phone" class="form-control2" id="phone" required="required" placeholder=" tel*">
+                <input name="phone" type="phone" class="form-control2" id="phone" required="required" 
+                placeholder=" Tel*">
+
             </div>
 
 
 
-            <label >Message</label>
 
             <textarea name="message" type="text" class="form-control2" id="message1" rows="23" required="required" 
-            placeholder="  message*"></textarea>
+            placeholder=" Message*"></textarea>
 
 
 
@@ -502,7 +431,7 @@ Des ateliers disponibles à partir de 16 ans et plus. <br>
 
 
     <section class="contact-form" id="forme">
-    <div class="container1">
+    <div class="container3">
     <div class="row">
 
         <form class="contact-form" method="post" action="{{ route('contact.send') }}">
@@ -512,35 +441,31 @@ Des ateliers disponibles à partir de 16 ans et plus. <br>
         <div class="col-md-6 col-sm-6">
                 
 
-            <label class="label">Nom</label>
             <div class="name">
                 <input  name="name" type="text" class="form-control1" id="name" required="required" 
-                placeholder=" nom*">
+                placeholder=" Nom*">
             </div>
 
 
 
 
-            <label class="label">Prénom</label>
             <div class="prenom">
                 <input name="firstname" type="firstname" class="form-control1" id="prenom" required="required" 
-                placeholder=" prenom*">
+                placeholder=" Prenom*">
             </div>
 
 
 
-            <label class="label">E-mail</label>
             <div class="email">
                 <input name="email" type="email" class="form-control1" id="email" required="required" 
-                placeholder=" mail*">
+                placeholder=" Mail*">
             </div>
 
 
 
-            <label class="label">Message</label>
 
             <textarea name="message" type="text" class="form-control1" id="message1" rows="23" required="required" 
-            placeholder="  message*"></textarea>
+            placeholder=" Message*"></textarea>
 
 
 
@@ -574,19 +499,19 @@ Des ateliers disponibles à partir de 16 ans et plus. <br>
 <h3 class="rs" id="rs"> Vous pouvez également me suivre sur les réseaux... </h3>
 
 
-                    <div class="col">
-                        <a href="https://github.com/" target = "_blank"><img src="frontend/images/icones/facebook.png" class="img1-fluidee" id="ic1" alt="Sample photo" width="50" height="50"></a>
-                    </div>
+        <div class="col">
+            <a href="https://github.com/" target = "_blank"><img src="frontend/images/icones/facebook.png" class="img1-fluidee" id="ic1" alt="Sample photo" width="50" height="50"></a>
+        </div>
 
 
-                    <div class="col">
-                        <a href="https://www.instagram.com/" target = "_blank"><img src="frontend/images/icones/instagram.png" class="img1-fluidee" id="ic2" alt="Sample photo" width="50" height="50"></a>
-                    </div>
+        <div class="col">
+            <a href="https://www.instagram.com/" target = "_blank"><img src="frontend/images/icones/instagram.png" class="img1-fluidee" id="ic2" alt="Sample photo" width="50" height="50"></a>
+        </div>
 
 
-                    <div class="col">
-                        <a href="https://www.linkedin.com/" target = "_blank"><img src="frontend/images/icones/linkedin.png"  class="img1-fluidee" id="ic3" alt="Sample photo" width="50" height="50"></a>
-                    </div>
+        <div class="col">
+            <a href="https://www.linkedin.com/" target = "_blank"><img src="frontend/images/icones/linkedin.png"  class="img1-fluidee" id="ic3" alt="Sample photo" width="50" height="50"></a>
+        </div>
 
 
 
@@ -607,8 +532,34 @@ Des ateliers disponibles à partir de 16 ans et plus. <br>
 
 
 <p class="content">
+
+
+<div class="flex-center position-ref full-height">
+            @if (Route::has('login'))
+                <div class="top-right links">
+                    @auth
+                        <a href="{{ url('/home') }}" id="co">Espace perso</a>
+                    @else
+                        <a href="{{ route('login') }}" id="co">Admin</a>
+
+                        @if (Route::has('register'))
+                            <!-- <a href="{{ route('register') }}" id="co" >Inscription</a> -->
+                        @endif
+                    @endauth
+                </div>
+            @endif
+</div>
+
+
     directed by Cynthia BOULEVARD
 </p>
+
+
+
+
+
+
+
 
 
 
