@@ -393,7 +393,7 @@ Des ateliers disponibles à partir de 16 ans et plus. <br>
 
 
 
-    <h2 class="formcont" id="formcont1"> Inscrivez-vous ! </h2>
+    <h2 class="formcont1" id="formcont1"> Inscrivez-vous ! </h2>
 
 
 
