@@ -162,7 +162,7 @@
                 <div class="port2"> 
 
 
-                    <img src="{{ asset('frontend/images/2.jpg') }}" alt="Sample photo" class="img-fluid2" width="200" height="200"> 
+                    <img src="{{ asset('frontend/images/77.jpg') }}" alt="Sample photo" class="img-fluid2" width="200" height="200"> 
 
                     <div class="overlay">
                         <div class="text">Illustration Acrylique<br>
@@ -177,7 +177,7 @@
                 <div class="port3"> 
 
 
-                    <img src="{{ asset('frontend/images/3.jpg') }}" alt="Sample photo" class="img-fluid3" width="200" height="200"> 
+                    <img src="{{ asset('frontend/images/888.jpg') }}" alt="Sample photo" class="img-fluid3" width="200" height="200"> 
 
                     <div class="overlay">
                         <div class="text">Illustration Acrylique <br>
@@ -200,7 +200,7 @@
                 <div class="port4"> 
 
 
-                    <img src="{{ asset('frontend/images/4.jpg') }}" alt="Sample photo" class="img-fluid4" width="200" height="200"> 
+                    <img src="{{ asset('frontend/images/777.jpg') }}" alt="Sample photo" class="img-fluid4" width="200" height="200"> 
 
                     <div class="overlay">
                         <div class="text">Illustration Gouache 
@@ -216,7 +216,7 @@
                 <div class="port5"> 
 
 
-                    <img src="{{ asset('frontend/images/6.jpg') }}" alt="Sample photo" class="img-fluid5" width="200" height="200"> 
+                    <img src="{{ asset('frontend/images/2.jpg') }}" alt="Sample photo" class="img-fluid5" width="200" height="200"> 
 
                     <div class="overlay">
                         <div class="text">Illustration aquarelle </div>
@@ -245,6 +245,60 @@
         </div> 
 
 
+
+
+        <div class="row text-center">
+
+            <div class="col-sm-4">
+                <div class="port77"> 
+
+
+                    <img src="{{ asset('frontend/images/88.jpg') }}" alt="Sample photo" class="img-fluid4" width="200" height="200"> 
+
+                    <div class="overlay">
+                        <div class="text">Illustration Gouache 
+                                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="col-sm-4">
+                <div class="port88"> 
+
+
+                    <img src="{{ asset('frontend/images/99.jpg') }}" alt="Sample photo" class="img-fluid5" width="200" height="200"> 
+
+                    <div class="overlay">
+                        <div class="text">Illustration aquarelle </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+            <div class="col-sm-4">
+                <div class="port99">
+
+
+                    <img src="{{ asset('frontend/images/999.jpg') }}" alt="Sample photo" class="img-fluid6" width="200" height="200"> 
+
+                    <div class="overlay">
+                        <div class="text">Portrait stylo à <br> 
+                                           pointe fine</div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </div> 
+
+
+
     </div>
 
 
@@ -271,8 +325,7 @@
 
 <blockquote class="content" id="ate">
 
-<br>
-<br>
+
 
 <h1 class="titre3"> Nos ateliers </h1>
 
@@ -321,6 +374,13 @@ Des ateliers disponibles à partir de 16 ans et plus. <br>
 
 </div>
 </div>
+
+
+
+
+
+
+
 
 
 
