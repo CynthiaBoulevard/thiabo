@@ -49,7 +49,7 @@
 
                 <strong>Atelier:</strong>
 
-                <p>  {{ $reservations->firstname }} </p>
+                <p>  {{ $lies->titre }} </p>
 
 
             </div>

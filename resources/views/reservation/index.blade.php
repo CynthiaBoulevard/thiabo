@@ -74,7 +74,11 @@
 
             <td>{{ $reservation->name }}</td>
 
-            <td>{{ $reservation->firstname }}</td>
+            @foreach ($lies as $lie) 
+            @if($lie->id==$reservation->product_id)
+             <td> {{ $lie-> titre }} </td>
+            @endif
+            @endforeach
 
             <td>{{ $reservation->email }}</td>
 
@@ -92,7 +96,6 @@
                     <a class="btn btn-info" href="{{ route('reservation.show',$reservation->id) }}">Voir</a>
 
     
-
 
    
 

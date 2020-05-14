@@ -21,4 +21,9 @@ protected $table='product';
 
     ];
 
+public function reservation(){
+        return $this->hasMany('App\Reservation');
+    }
+
+
 }

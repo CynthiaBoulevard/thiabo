@@ -1,15 +1,11 @@
 
 
-
-
-
-
 .card
 {
     background-color: rgb(194, 201, 98);
     margin-left: 20px;
-
 }
+
 
 .card-header
 {
@@ -17,11 +13,13 @@
 
 }
 
+
 .nav-link:hover
 {
     background-color:rgb(87, 109, 26) ;
     color: cornsilk;
 }
+
 
 .nav-link
 {

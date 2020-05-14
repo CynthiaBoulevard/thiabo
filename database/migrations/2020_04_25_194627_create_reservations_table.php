@@ -15,13 +15,24 @@ class CreateReservationsTable extends Migration
     {
         Schema::create('reservations', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('product_id')->unsigned();
             $table->string('name');
-            $table->string('firstname');
             $table->string('email');
             $table->integer('phone');
             $table->text('message');
             $table->timestamps();
+
         });
+
+
+
+            Schema::table('reservations', function($table) { 
+                $table->foreign('product_id')->references('id')->on('product')->onDelete('cascade');
+
+            });
+
+
+
     }
 
     /**
@@ -31,7 +42,9 @@ class CreateReservationsTable extends Migration
      */
     public function down()
     {
+        DB::statement('SET FOREIGN_KEY_CHECKS = 0');
         Schema::dropIfExists('reservations');
+        DB::statement('SET FOREIGN_KEY_CHECKS = 1');
     }
 }
 

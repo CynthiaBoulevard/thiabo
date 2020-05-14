@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Product;
 use App\Reservation;
 use Yoeunes\Toastr\Facades\Toastr;
 use Illuminate\Http\Request;
@@ -13,7 +14,7 @@ class ReservationController extends Controller
         $this->validate($request,[
 
             'name' => 'required|alpha',
-            'firstname' => 'required|alpha ',
+            'product_id' => 'required',
             'email' => 'required|email',
             'phone' => 'required',
             'message' => 'required|alpha',
@@ -21,7 +22,7 @@ class ReservationController extends Controller
 
         $reservation = new Reservation();
         $reservation->name = $request->name;
-        $reservation->firstname = $request->firstname;
+        $reservation->product_id = $request->product_id;
         $reservation->email = $request->email;
         $reservation->phone = $request->phone;
         $reservation->message = $request->message;
@@ -43,10 +44,13 @@ class ReservationController extends Controller
     public function index()
     {
         $reservations = Reservation::latest()->paginate(5);
-        return view('reservation.index',compact('reservations')
+        $lies = Product::get();
+        return view('reservation.index',compact('reservations'),compact('lies')
     );
         
     }
+
+
 
     /**
      * Show the form for creating a new resource.
@@ -78,8 +82,13 @@ class ReservationController extends Controller
     public function show($id)
     {
         $reservations = Reservation::find($id);
-        return view('reservation.show',compact('reservations'));
+        $lies = Product::find($reservations->product_id);
+        return view('reservation.show',compact('reservations'),compact('lies')
+    );
     }
+
+
+
 
     /**
      * Show the form for editing the specified resource.

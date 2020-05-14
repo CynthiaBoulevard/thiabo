@@ -420,11 +420,12 @@ Des ateliers disponibles à partir de 16 ans et plus. <br>
 
             <div class="atelier">
 
-            <select name="firstname" class="form-control2" id="atelier" required="required" >
-            <option value="Aquarelle">Aquarelle</option>
-            <option value="Acrylique">Acrylique</option>
-            <option value="Portrait">Portrait</option>
-            </select>
+            <select name="product_id" class="form-control2" id="atelier" required="required" >
+                                                @foreach($lies as $lie)
+                                                <option   value="{{ $lie->id }}">{{ $lie->titre }}</option>
+                                                @endforeach                                           
+            </select >
+
 
             </div>
 
