@@ -71,7 +71,7 @@ ul
   list-style-type: none;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(255, 242, 225);
+  background-color:#b57a44;
 
   top: 0;
   z-index:1000;
@@ -137,7 +137,12 @@ color: #111;
 
 
 
-
+#back 
+{
+    background-color:#e6ecef;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
 
 /* images */
 
@@ -504,7 +509,7 @@ color: #111;
 
 .évé1
 {
-    background-color: rgb(43, 48, 38);
+    background-color:#c4d6dc;
     padding-bottom: 100px;
     padding-top: 50px;
 }
