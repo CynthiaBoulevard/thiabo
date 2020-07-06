@@ -72,6 +72,8 @@ ul
   padding: 0;
   overflow: hidden;
   background-color:#b57a44;
+  position: fixed;
+  padding-right: 200px;
 
   top: 0;
   z-index:1000;
