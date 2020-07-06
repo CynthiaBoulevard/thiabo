@@ -3,7 +3,7 @@
 
 html 
 {
-    background-color: rgb(194, 201, 98);
+    background-color:#f2e7d2;
     padding-right:-50px ;
     color: #000000;
     font-family: 'Nunito', sans-serif;
@@ -71,12 +71,11 @@ ul
   list-style-type: none;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(194, 201, 98);
-  position: -webkit sticky; /* Safari */
-  position: sticky;
+  background-color: rgb(255, 242, 225);
+
   top: 0;
   z-index:1000;
-  margin-top: -40px;
+  margin-top: -5px;
 }
 
 

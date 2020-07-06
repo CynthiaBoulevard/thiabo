@@ -64,13 +64,4 @@ Route::get('contact',['middleware' => 'auth', function () {
 
 
 
-// route User
-Route::get('user',['middleware' => 'auth', function () {
-    return view('user/user');
-}]);
 
-
-// route Accueil
-// Route::get('/', function () {
-//     return view('welcome');
-// });

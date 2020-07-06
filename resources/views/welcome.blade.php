@@ -38,21 +38,24 @@
 
 
 <!-------------------------------------- IMG PRINCIPAL + NAVBAR---------------------------------------->
-        <div class="content">
-
-            <img src="{{ asset('frontend/images/5.jpg') }}" alt="pain" class="imgprin" id="imgprin" height="595px" width="887px" > 
-
-        </div>
- <div id="back">
-
- </div>
-
         <ul>
             <li><a class="lien" href="#quisuis-je"> Qui suis-je ? </a></li>
             <li><a class="lien" href="#réal"> Réalisations </a></li>
             <li><a class="lien" href="#ate"> Ateliers </a></li>
             <li><a class="lien" href="#évé1"> Contact </a></li>
         </ul>
+
+
+
+
+<div class="content">
+
+            <img src="{{ asset('frontend/images/5.jpg') }}" alt="pain" class="imgprin" id="imgprin" height="595px" width="887px" > 
+
+        </div>
+
+
+       
 
 
  
